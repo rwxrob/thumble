@@ -4,7 +4,9 @@ thumble
 WIP Do Not Use for Now
 
 
-A big button frontend library for those who thumble around to click on stuff
+A collapsible, big button pad web app frontend widget for those who
+thumble around to click on stuff and also want near-zero screen navigation
+when off.
 
 
 Install
