@@ -1,0 +1,28 @@
+{
+  "name": "thumble",
+  "version": "0.0.1",
+  "description": "WIP Do Not Use Yet: A big button frontend library for those who thumble around to click on stuff",
+  "main": "thumble.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robmuh/thumble.git"
+  },
+  "keywords": [
+    "frontend",
+    "javascript",
+    "css",
+    "stylus",
+    "widget",
+    "buttons",
+    "mobile"
+  ],
+  "author": "Rob Muhlestein",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/robmuh/thumble/issues"
+  },
+  "homepage": "https://github.com/robmuh/thumble"
+}
