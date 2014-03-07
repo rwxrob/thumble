@@ -1,0 +1,70 @@
+// Thumble Styles
+
+// customize these
+thumble-font-family = WingDings
+btn-off-opacity = 0.84
+btn-hover-opacity = 0.84
+btn-hover-color = black
+
+main-off-opacity = 0.25
+main-on-opacity = 0.84
+main-hover-opacity = 0.84
+main-hover-color = black
+
+// ... and mess with the rest if you really want
+
+opacity(n)
+  zoom 1
+  opacity n
+  filter unquote('alpha(opacity=' + round(n * 100) + ')')
+
+#thumble
+  width 100%
+  display block
+  position fixed
+
+#thumble-pad
+  width 100%
+
+#thumble-pad.off
+  display none
+
+
+#thumble-main, .thumble-btn
+  opacity(btn-off-opacity)
+  display inline-block
+  background grey
+  z-index 1
+  line-height 60px 
+  height 60px 
+  width 60px 
+  padding 20px
+  border-radius 10px
+  text-decoration none !important
+  vertical-align middle
+  text-align center
+  border 0
+  transition opacity 0.25s ease
+  font-size 60px
+  color white
+  font-family thumble-font-family
+  margin 4px
+
+.thumble-btn:hover
+  opacity(btn-hover-opacity)
+  background btn-hover-color
+
+#thumble-main:hover
+  opacity(main-hover-opacity)
+  background main-hover-color
+
+#thumble-main.off
+  opacity(main-off-opacity)
+  height 20px
+  line-height 20px
+  width 20px
+  padding 30px 45px 30px 15px
+  text-align center
+  transition opacity 0.25s ease
+
+
