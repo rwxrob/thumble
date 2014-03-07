@@ -27,7 +27,7 @@ function toggleThumblePad(click) {
     main.className = main.className.replace(/off/g, '');
     btns.className = btns.className.replace(/off/g, '');
     pad.className = pad.className.replace(/off/g, '');
-    body.className = body.className.replace(/off/g, '');
+    body.className = pad.className.replace(/off/g, '');
   } else {
     main.className += 'off';
     btns.className += 'off';
