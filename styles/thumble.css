@@ -248,22 +248,22 @@ th {
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
 }
-@media all and (min-width: 326px) {
+@media all and (min-width: 354px) {
   #thumble-pad {
     width: 326px;
   }
 }
-@media all and (min-width: 432px) {
+@media all and (min-width: 458px) {
   #thumble-pad {
     width: 432px;
   }
 }
-@media all and (min-width: 648px) {
+@media all and (min-width: 674px) {
   #thumble-pad {
     width: 648px;
   }
 }
-@media all and (min-width: 1296px) {
+@media all and (min-width: 1322px) {
   #thumble-pad {
     width: 1296px;
   }
