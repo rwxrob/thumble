@@ -26,6 +26,8 @@ opacity(n)
 
 #thumble
   position fixed
+  left 0px
+  top 0px
   padding 0px
   margin 0px
 
@@ -81,6 +83,11 @@ opacity(n)
   text-align center
   transition opacity 0.25s ease
 
+
+@media all and (min-width: 1px)
+  body
+    padding-top 450px
+
 @media all and (min-width: 354px)
   #thumble-pad
     width 326px
@@ -88,12 +95,20 @@ opacity(n)
 @media all and (min-width: 458px)
   #thumble-pad
     width 432px
+  body
+    padding-top 338px
 
 @media all and (min-width: 674px)
   #thumble-pad
     width 648px
+  body
+    padding-top 228px
 
 @media all and (min-width: 1322px)
   #thumble-pad
     width 1296px
+  body
+    padding-top 120px
 
+body.off
+  padding-top 0px
