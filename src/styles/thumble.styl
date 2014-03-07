@@ -1,6 +1,11 @@
 // Thumble Styles
+@import 'normalize'
 
 // customize these
+
+pad-background = grey - 10
+pad-opacity = 0.98
+
 thumble-font-family = WingDings
 btn-off-opacity = 0.84
 btn-hover-opacity = 0.84
@@ -19,14 +24,24 @@ opacity(n)
   filter unquote('alpha(opacity=' + round(n * 100) + ')')
 
 #thumble
-  width 100%
   position fixed
+  padding 0px
+  margin 0px
 
 #thumble-pad
-  width 100%
+  opacity(pad-opacity)
+  display block
+  margin 4px
+  padding 4px
+  background pad-background
+  border-radius 10px
+  text-align center
+
+#thumble-btns.off
+  display none
 
 #thumble-pad.off
-  display none
+  background none
 
 #thumble-main, .thumble-btn
   opacity(btn-off-opacity)
