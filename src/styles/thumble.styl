@@ -18,6 +18,7 @@ main-hover-color = black
 
 // ... and mess with the rest if you really want
 
+
 opacity(n)
   zoom 1
   opacity n
@@ -35,7 +36,7 @@ opacity(n)
   padding 4px
   background pad-background
   border-radius 10px
-  text-align center
+  min-width 326px
 
 #thumble-btns.off
   display none
@@ -79,4 +80,20 @@ opacity(n)
   padding 30px 45px 30px 15px
   text-align center
   transition opacity 0.25s ease
+
+@media all and (min-width: 326px)
+  #thumble-pad
+    width 326px
+
+@media all and (min-width: 432px)
+  #thumble-pad
+    width 432px
+
+@media all and (min-width: 648px)
+  #thumble-pad
+    width 648px
+
+@media all and (min-width: 1296px)
+  #thumble-pad
+    width 1296px
 

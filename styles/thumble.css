@@ -192,7 +192,7 @@ th {
   padding: 4px;
   background: #767676;
   border-radius: 10px;
-  text-align: center;
+  min-width: 326px;
 }
 #thumble-btns.off {
   display: none;
@@ -247,4 +247,24 @@ th {
   text-align: center;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
+}
+@media all and (min-width: 326px) {
+  #thumble-pad {
+    width: 326px;
+  }
+}
+@media all and (min-width: 432px) {
+  #thumble-pad {
+    width: 432px;
+  }
+}
+@media all and (min-width: 648px) {
+  #thumble-pad {
+    width: 648px;
+  }
+}
+@media all and (min-width: 1296px) {
+  #thumble-pad {
+    width: 1296px;
+  }
 }
