@@ -9,7 +9,9 @@ var gulp = require('gulp'),
     size = require('gulp-size');
 
 var paths = {
-  stylus: ['node_modules/css-colors-solarized/styles']
+  stylus: [
+    'node_modules/css-colors-solarized/styles'
+  ]
 };
 
 gulp.task('scripts', function(){

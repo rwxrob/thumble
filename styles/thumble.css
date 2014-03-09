@@ -242,10 +242,6 @@ th {
   zoom: 1;
   opacity: 0.25;
   filter: alpha(opacity=25);
-  height: 20px;
-  line-height: 20px;
-  width: 20px;
-  padding: 30px 45px 30px 15px;
   text-align: center;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
@@ -283,7 +279,4 @@ th {
   body {
     padding-top: 120px;
   }
-}
-body.off {
-  padding-top: 0px;
 }
