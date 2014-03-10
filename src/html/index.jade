@@ -1,0 +1,85 @@
+doctype html
+// if you aren't using a modern browser, bubye, you matter not to me 
+html
+  head
+    meta(charset='utf-8')
+    title Thumble - Big Button Navigation for Fat Thumbs
+    meta(name='description', content='CSS and Stylus style sheet widget with big button mobile navigation for those with big thumbs')
+    meta(name='viewport', content='width=device-width')
+
+    // you'll probably want to collapse following into one css during build 
+    link(rel='stylesheet', href='styles/thumble.css')
+    link(rel='stylesheet', href='styles/demo.css')
+
+    // normally i'd only grab a few from icomoon.io 
+    link(href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', rel='stylesheet')
+
+  body
+    #thumble
+      a#thumble-main.off
+        i.fa.fa-th(style='margin-top: 3px;')
+      #thumble-pad
+        a.thumble-btn(href='#a')
+          i.fa.fa-phone
+        a.thumble-btn(href='#b')
+          i.fa.fa-calendar
+        a.thumble-btn(href='#c')
+          i.fa.fa-github
+        a.thumble-btn(href='#d')
+          i.fa.fa-facebook
+        a.thumble-btn(href='#e')
+          i.fa.fa-twitter
+        a.thumble-btn(href='#f')
+          i.fa.fa-dropbox
+        a.thumble-btn(href='#g')
+          i.fa.fa-play
+        a.thumble-btn(href='#h')
+          i.fa.fa-lightbulb-o
+        a.thumble-btn(href='#i')
+          i.fa.fa-heart
+        a.thumble-btn(href='#j')
+          i.fa.fa-rocket
+        a.thumble-btn(href='#k')
+          i.fa.fa-skype
+        a.thumble-btn(href='#l')
+          i.fa.fa-ellipsis-h
+
+    .container
+
+      h1 Thumble, For Those Who Thumb-Fumble
+      p. 
+        You might not want to admit it, but yes we all curse those
+        tiny buttons and menu items most web app widget libraries
+        offer.  Well, try our PlaySkool&#8482; size button-pad widget. We
+        designed it for mobile-phones first. But it holds up pretty
+        well on the bigger viewports as well as a minimal, on-request form
+        of navigation that plays nicely with touch laptops and more.  
+        We threw in a sample on this page with a few local
+        links using Font-Awesome.
+
+      p The rest of this page is largely just sample stuff.
+          
+      h1#a Contact Info
+      p
+        | Brought to you by
+        a.skilstak_(href='http://skilstak.com')
+          span.sred skilstak
+          span.cursor _
+          span.scyan &nbsp;coding&nbsp;arts
+
+      h1#b Calendar Example
+      h1#c GitHub Info
+      h1#d Facebook Info
+      h1#e Twitter Info 
+      h1#f DropBox Info 
+      h1#g Some Media Section 
+      h1#h A Random Light Bulb
+      h1#i &lt;3 
+      h1#j Does Anyone Remember RocketBoom? 
+      h1#k Does Anyone Use Skype Anymore?
+      h1#l More &hellip; 
+
+    // you should probably combine into a main-after.min.js 
+    script(src='scripts/thumble.min.js')
+    script(src='scripts/demo.min.js')
+

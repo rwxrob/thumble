@@ -1,81 +1,51 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE html>
+<!-- if you aren't using a modern browser, bubye, you matter not to me -->
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Thumble - Big Button Navigation for Fat Thumbs</title>
-    <meta name="description" content="CSS and Stylus style sheet widget with big
-      button mobile navigation for those with big thumbs">
+    <meta name="description" content="CSS and Stylus style sheet widget with big button mobile navigation for those with big thumbs">
     <meta name="viewport" content="width=device-width">
-    <!-- or collapse following into one css during build -->
+    <!-- you'll probably want to collapse following into one css during build -->
     <link rel="stylesheet" href="styles/thumble.css">
     <link rel="stylesheet" href="styles/demo.css">
+    <!-- normally i'd only grab a few from icomoon.io -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   </head>
-<body >
-
-  <!-- html5 version, use divs and spans if you like -->
-  <div id="thumble">
-    <div id="thumble-pad"><a id="thumble-main"><i class="fa fa-th" style="margin-top: 3px;"></i></a><span id="thumble-btns"><a href="#1st" class="thumble-btn"><i class="fa fa-phone"></i></a><a href="#2nd" class="thumble-btn"><i class="fa fa-calendar"></i></a><a href="#3rd" class="thumble-btn"><i class="fa fa-github"></i></a><a href="#4th" class="thumble-btn"><i class="fa fa-facebook"></i></a><a href="#5th" class="thumble-btn"><i class="fa fa-twitter"></i></a><a href="#6th" class="thumble-btn"><i class="fa fa-dropbox"></i></a><a href="#7th" class="thumble-btn"><i class="fa fa-play"></i></a><a href="#8th" class="thumble-btn"><i class="fa fa-lightbulb-o"></i></a><a href="#9th" class="thumble-btn"><i class="fa fa-heart"></i></a><a href="#ath" class="thumble-btn"><i class="fa fa-rocket"></i></a><a href="#bth" class="thumble-btn"><i class="fa fa-ellipsis-h"></i></a></span></div>
-  </div>
-
-<div class="container">
-
-  <!-- rest of the page -->
-  <h1>Thumble, For Those Who Thumb-Fumble</h1>
-You might not want to admit it, but yes we all curse those tiny buttons
-and menu items most web app widget libraries offer. Well, try our
-PlaySkool&#8482; size button-pad widget. We designed it for mobile-phones
-first. But it holds up pretty well on the bigger viewports as well as a
-minimal, on-request form of navigation that plays nicely with touch
-laptops and more. 
-
-We threw in a sample on this page with a few local links using Font-Awesome.
-
-  <h1 id="1st">Contact Info</h1>
-  <p>Brought to you by <a href="http://skilstak.com" class="skilstak_"><span class="sred">skilstak</span><span class="cursor">_</span><span class="sblue">&nbsp;coding&nbsp;arts</span></a> and company.
-  
-  <h1 id="2nd">Second Section</h1>
-  <p>Discere Faciendo.</p>
-  
-  <h1 id="3rd">Third Section</h1>
-  <p>Not 2, not 4 &mdash; 5 is right out.</p>
-
-  <h1 id="4th">Fourth Section</h1>
-  <p><div class="base03bg" style="height: 30px; width: 30px;">&nbsp;</div></p>
-
-  <h1 id="5th">Fifth Section</h1>
-
-  <h1 id="6th">Sixth Section</h1>
-  <p>For those about to rock &hellip;</p>
-
-  <h1 id="7th">Seventh Section</h1>
-  <p>&lt;napolean&gt;Luucckky!&lt;napolean&gt;</p>
-
-  <h1 id="8th">Eighth Section</h1>
-  <p><iframe width="80%" src="http://www.youtube.com/embed/L5bqMDGWXO8" frameborder="0" allowfullscreen></iframe></p>
-
-  <h1 id="9th">Nineth Section</h1>
-  <p>9999999999999999</p>
-
-  <h1 id="ath">Ath Section</h1>
-  <p>But the greatest menace to our civilization today is the conflict
-  between giant organized systems of self-righteousness ~ Herbert Butterfield</p>
-
-  <h1 id="bth">Bth Section</h1>
-  <p>There are 10 types of people in the world, those that read
-  binary and those that don't</p>
-
-  <h1 id="cth">Cth Section</h1>
-  <p>Carpe Diem.</p>
-  
-</div>
-  <!-- replace with whatever if you have combined -->
-  <!-- some might prefer combined into a main-after.min.js instead -->
-  <script src="scripts/thumble.min.js"></script>
-  <script src="scripts/demo.min.js"></script>
-</body>
+  <body>
+    <div id="thumble"><a id="thumble-main" class="off"><i style="margin-top: 3px;" class="fa fa-th"></i></a>
+      <div id="thumble-pad"><a href="#a" class="thumble-btn"><i class="fa fa-phone"></i></a><a href="#b" class="thumble-btn"><i class="fa fa-calendar"></i></a><a href="#c" class="thumble-btn"><i class="fa fa-github"></i></a><a href="#d" class="thumble-btn"><i class="fa fa-facebook"></i></a><a href="#e" class="thumble-btn"><i class="fa fa-twitter"></i></a><a href="#f" class="thumble-btn"><i class="fa fa-dropbox"></i></a><a href="#g" class="thumble-btn"><i class="fa fa-play"></i></a><a href="#h" class="thumble-btn"><i class="fa fa-lightbulb-o"></i></a><a href="#i" class="thumble-btn"><i class="fa fa-heart"></i></a><a href="#j" class="thumble-btn"><i class="fa fa-rocket"></i></a><a href="#k" class="thumble-btn"><i class="fa fa-skype"></i></a><a href="#l" class="thumble-btn"><i class="fa fa-ellipsis-h"></i></a></div>
+    </div>
+    <div class="container">
+      <h1>Thumble, For Those Who Thumb-Fumble</h1>
+      <p>
+        You might not want to admit it, but yes we all curse those
+        tiny buttons and menu items most web app widget libraries
+        offer.  Well, try our PlaySkool&#8482; size button-pad widget. We
+        designed it for mobile-phones first. But it holds up pretty
+        well on the bigger viewports as well as a minimal, on-request form
+        of navigation that plays nicely with touch laptops and more.  
+        We threw in a sample on this page with a few local
+        links using Font-Awesome.
+        
+      </p>
+      <p>The rest of this page is largely just sample stuff.</p>
+      <h1 id="a">Contact Info</h1>
+      <p>Brought to you by<a href="http://skilstak.com" class="skilstak_"><span class="sred">skilstak</span><span class="cursor">_</span><span class="scyan">&nbsp;coding&nbsp;arts</span></a></p>
+      <h1 id="b">Calendar Example</h1>
+      <h1 id="c">GitHub Info</h1>
+      <h1 id="d">Facebook Info</h1>
+      <h1 id="e">Twitter Info </h1>
+      <h1 id="f">DropBox Info </h1>
+      <h1 id="g">Some Media Section </h1>
+      <h1 id="h">A Random Light Bulb</h1>
+      <h1 id="i">&lt;3 </h1>
+      <h1 id="j">Does Anyone Remember RocketBoom? </h1>
+      <h1 id="k">Does Anyone Use Skype Anymore?</h1>
+      <h1 id="l">More &hellip; </h1>
+    </div>
+    <!-- you should probably combine into a main-after.min.js -->
+    <script src="scripts/thumble.min.js"></script>
+    <script src="scripts/demo.min.js"></script>
+  </body>
 </html>

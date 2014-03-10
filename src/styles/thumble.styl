@@ -11,10 +11,7 @@ btn-off-opacity = 0.84
 btn-hover-opacity = 0.84
 btn-hover-color = black
 
-main-off-opacity = 0.25
-main-on-opacity = 0.84
-main-hover-opacity = 0.84
-main-hover-color = black
+main-on-opacity = 0.24
 
 // ... and mess with the rest if you really want
 
@@ -39,11 +36,6 @@ opacity(n)
   border-radius 10px
   min-width 326px
 
-#thumble-btns.off
-  display none
-
-#thumble-pad.off
-  background none
 
 #thumble-main, .thumble-btn
   opacity(btn-off-opacity)
@@ -65,16 +57,12 @@ opacity(n)
   font-family thumble-font-family
   margin 4px
 
-.thumble-btn:hover
+#thumble-main
+  opacity(main-on-opacity)
+
+.thumble-btn:hover, #thumble-main:hover
   opacity(btn-hover-opacity)
   background btn-hover-color
 
-#thumble-main:hover
-  opacity(main-hover-opacity)
-  background main-hover-color
-
-#thumble-main.off
-  opacity(main-off-opacity)
-  text-align center
-  transition opacity 0.25s ease
-
+#thumble-pad.off, #thumble-main.off
+  display none

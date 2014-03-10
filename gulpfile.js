@@ -6,6 +6,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     clean = require('gulp-clean'),
     rename = require('gulp-rename'),
+    jade = require('gulp-jade'),
+    htmlmin = require('gulp-minify-html'),
     size = require('gulp-size');
 
 var paths = {
@@ -48,11 +50,6 @@ gulp.task('styles', function(){
     .pipe(gulp.dest('styles'));
 });
 
-gulp.task('html', function(){
-  gulp.src('src/html/*.html')           
-    .pipe(gulp.dest('.'));
-});
-
 gulp.task('favicon',function(){
   gulp.src('src/images/favicon.ico')
     .pipe(gulp.dest('.'));
@@ -69,9 +66,17 @@ gulp.task('clean',function(){
     .pipe(clean());
 });
 
+gulp.task('html', function(){
+  gulp.src('src/html/*.html')           
+    .pipe(gulp.dest('.'));
+  gulp.src('src/html/*.jade')           
+    .pipe(jade({pretty: true}))
+    .pipe(gulp.dest('.'));
+});
+
 gulp.task('default',['scripts','styles','images','html'],function(){
   gulp.watch('src/styles/*.styl', ['styles','html']);
   gulp.watch('src/scripts/*.js', ['scripts','html']); 
   gulp.watch('src/images/*', ['images']);
-  gulp.watch('src/html/*.html', ['html']);
+  gulp.watch('src/html/*.{html,jade}', ['html']);
 });

@@ -196,12 +196,6 @@ th {
   border-radius: 10px;
   min-width: 326px;
 }
-#thumble-btns.off {
-  display: none;
-}
-#thumble-pad.off {
-  background: none;
-}
 #thumble-main,
 .thumble-btn {
   zoom: 1;
@@ -226,23 +220,19 @@ th {
   font-family: WingDings;
   margin: 4px;
 }
-.thumble-btn:hover {
+#thumble-main {
   zoom: 1;
-  opacity: 0.84;
-  filter: alpha(opacity=84);
-  background: #000;
+  opacity: 0.24;
+  filter: alpha(opacity=24);
 }
+.thumble-btn:hover,
 #thumble-main:hover {
   zoom: 1;
   opacity: 0.84;
   filter: alpha(opacity=84);
   background: #000;
 }
+#thumble-pad.off,
 #thumble-main.off {
-  zoom: 1;
-  opacity: 0.25;
-  filter: alpha(opacity=25);
-  text-align: center;
-  -webkit-transition: opacity 0.25s ease;
-  transition: opacity 0.25s ease;
+  display: none;
 }
