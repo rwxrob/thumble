@@ -1,89 +1,110 @@
 // Thumble Styles
 @import 'normalize'
 
-// customize these
-
-pad-background = grey - 10
-pad-opacity = 0.98
-
-thumble-font-family = WingDings
-btn-off-opacity = 0.84
-btn-hover-opacity = 0.84
-btn-hover-color = black
-
-main-on-opacity = 0.24
-
-// ... and mess with the rest if you really want
-
 opacity(n)
   zoom 1
   opacity n
   filter unquote('alpha(opacity=' + round(n * 100) + ')')
 
 #thumble
+  background rgba(0,0,0,0.0)
   position fixed
-  left 0px
-  top 0px
-  padding 0px
-  margin 0px
+  top 0
+  right 0
+  z-index 10 
+  width 100%
+  vertical-align middle
+  padding 0.1em
+  text-align center
+  vertical-align middle
+  z-index 11 
 
 #thumble-pad
-  opacity(pad-opacity)
-  display block
-  margin 4px
-  padding 4px
-  background pad-background
-  border-radius 10px
-  min-width 326px
-
+  display inline-block
+  text-align center
+  vertical-align middle
+  border-radius 0.6em
+  background rgba(90,90,90,0.84)
+  padding-top 0.2em
 
 #thumble-main, .thumble-btn
-  opacity(btn-off-opacity)
   display inline-block
-  background grey
-  z-index 1
-  line-height 60px 
-  height 60px 
-  width 60px 
-  padding 20px
-  border-radius 10px
+  background rgba(90,90,90,0.84)
+  color white
+  border-radius 0.25em
+  border 0
   text-decoration none !important
   vertical-align middle
   text-align center
-  border 0
   transition opacity 0.25s ease
-  font-size 60px
-  color white
-  font-family thumble-font-family
-  margin 4px
-
-#thumble-main
-  opacity(main-on-opacity)
 
 .thumble-btn:hover, #thumble-main:hover
-  opacity(btn-hover-opacity)
-  background btn-hover-color
+  background rgba(0,0,0,0.84)
+
+#thumble-main
+  background rgba(0,0,0,0.24)
 
 #thumble-pad.off, #thumble-main.off
   display none
 
-@media (max-width: 640px) // zurb small
-  #thumble-pad
-    background green !important
+/*--- mostly zurb foundation based media queries ---*/
 
-@media (min-width: 641px) // zurb medium
+// tiny <=320px
+@media only screen
   #thumble-pad
-    background cyan !important
+    width 19.4em
+    height 25em
+  .thumble-btn
+    line-height 2em
+    height 2em
+    font-size 2.75em
+    width 2em
+    padding 0.065em
+    margin 0.065em
 
-@media (min-width: 1025px) // zurb large
-  #thumble-pad
-    background magenta !important
+// xsmall >320px (safer than 480)
+//@media only screen and (min-width: 20em)
 
-@media (min-width: 1441px) // zurb xlarge
+// small >450px
+@media only screen and (min-width: 28.125em)
   #thumble-pad
-    background blue !important
+    height 18.8em
+    width 25.4em
 
-@media (min-width: 1921px) // zurb xxlarge
+// medium >640px
+@media only screen and (min-width: 40em)
   #thumble-pad
-    background red !important
-  
+    width 37.8em
+    height 12.6em
+
+// large >1024px
+@media only screen and (min-width: 64.063em)
+  #thumble
+    text-align right
+    padding-right 0.2em
+  .thumble-btn
+    line-height 1.9em
+    height 1.9em
+    font-size 2.50em
+    width 1.9em
+    padding 0.03em
+    margin 0.065em 
+  #thumble-pad
+    width 63.1em
+    height 5.6em
+
+// xlarge >1440px
+@media (min-width: 90.063em)
+  .thumble-btn
+    line-height 2em
+    height 2em
+    font-size 2.75em
+    width 2em
+    padding 0.065em
+    margin 0.065em
+  #thumble-pad
+    width 75.1em
+    height 6.5em
+
+// xxlarge >1920
+//@media (min-width: 120.063em)
