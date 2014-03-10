@@ -21,6 +21,12 @@ gulp.task('scripts', function(){
     .pipe(uglify())
     .pipe(rename('thumble.min.js'))
     .pipe(gulp.dest('scripts'));
+  gulp.src('src/scripts/demo.js')
+    .pipe(jshint())
+    .pipe(gulp.dest('scripts'))
+    .pipe(uglify())
+    .pipe(rename('demo.min.js'))
+    .pipe(gulp.dest('scripts'));
 });
 
 gulp.task('styles', function(){

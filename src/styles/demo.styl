@@ -3,3 +3,74 @@
 html
   font-family Consolas, Tahoma, Helvetica, Arial, san-serif
   background base2()
+
+body
+  margin 0px auto
+
+.container
+  font-family Consolas, Tahoma, Helvetica, Arial, san-serif
+  width 80%
+  font-size 20px
+  background base3()
+  padding 10px 20px
+  border-radius 10px
+  margin 10px
+
+:firstline
+  color cyan
+
+.skilstak_
+  line-height 30px
+  height 20px
+  border-radius 4px
+  background base02()
+  padding 2px 6px
+  text-decoration none
+
+
+@keyframes blink 
+  0%
+  50%
+    opacity 0
+  50.01%
+  100%
+    opacity 1
+
+.cursor
+  color base3()
+  font-weight 1000
+  animation blink 0.7s infinite linear alternate
+
+@media all and (min-width: 1px)
+  body
+    padding-top 450px
+
+@media all and (min-width: 354px)
+  #thumble-pad
+    width 326px
+  .container
+    width 282px
+
+@media all and (min-width: 458px)
+  #thumble-pad
+    width 432px
+  body
+    padding-top 338px
+  .container
+      width 392px
+
+@media all and (min-width: 674px)
+  #thumble-pad
+    width 648px
+  body
+    padding-top 228px
+  .container
+      width 608px
+
+@media all and (min-width: 1322px)
+  #thumble-pad
+    width 1296px
+  body
+    padding-top 120px
+  .container
+      width 1254px

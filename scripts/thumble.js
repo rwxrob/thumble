@@ -5,9 +5,6 @@ var main = document.getElementById('thumble-main');
 var btns = document.getElementById('thumble-btns');
 var pad = document.getElementById('thumble-pad');
 
-// TODO add inferred sizes of the main thumble elements
-// rather than requiring they be hard coded in the CSS
-
 if (typeof main.className == 'undefined') main.className = '';
 if (typeof btns.className == 'undefined') btns.className = '';
 if (typeof pad.className == 'undefined') pad.className = '';
