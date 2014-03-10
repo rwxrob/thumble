@@ -236,3 +236,28 @@ th {
 #thumble-main.off {
   display: none;
 }
+@media (max-width: 640px) {
+  #thumble-pad {
+    background: #008000 !important;
+  }
+}
+@media (min-width: 641px) {
+  #thumble-pad {
+    background: #0ff !important;
+  }
+}
+@media (min-width: 1025px) {
+  #thumble-pad {
+    background: #f0f !important;
+  }
+}
+@media (min-width: 1441px) {
+  #thumble-pad {
+    background: #00f !important;
+  }
+}
+@media (min-width: 1921px) {
+  #thumble-pad {
+    background: #f00 !important;
+  }
+}
