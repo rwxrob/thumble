@@ -216,6 +216,49 @@ th {
   color: #fff;
   border-radius: 0.25rem;
 }
+#thumble {
+  background: rgba(0,0,0,0.9);
+}
+#thumble-pad {
+  background: #ffa500;
+}
+.thumble-btn {
+  background: #00f;
+  color: #fff;
+}
+.thumble-btn:hover {
+  background: rgba(0,0,0,0.84);
+}
+@media (min-height:8em) and (min-width:4.5em) {
+  #thumble-pad {
+    height: 7.808rem;
+    width: 4.394rem;
+    padding: 0.098rem;
+  }
+  .thumble-btn {
+    font-size: 0.93rem;
+    padding: 0.244rem;
+    margin: 0.04rem;
+    line-height: 1.005rem;
+    height: 1.005rem;
+    width: 0.893rem;
+  }
+}
+@media (min-width:8em) and (min-height:4.5em) {
+  #thumble-pad {
+    width: 7.808rem;
+    height: 4.394rem;
+    padding: 0.098rem;
+  }
+  .thumble-btn {
+    font-size: 0.93rem;
+    padding: 0.244rem;
+    margin: 0.04rem;
+    line-height: 0.898rem;
+    height: 0.898rem;
+    width: 0.968rem;
+  }
+}
 @media (min-height:20em) and (min-width:11.25em) {
   #thumble-pad {
     height: 19.52rem;
@@ -515,18 +558,4 @@ th {
     height: 12.346rem;
     width: 13.311rem;
   }
-}
-/* ----------------------------------------- */
-#thumble {
-  background: rgba(0,0,0,0.9);
-}
-#thumble-pad {
-  background: #ffa500;
-}
-.thumble-btn {
-  background: #00f;
-  color: #fff;
-}
-.thumble-btn:hover {
-  background: rgba(0,0,0,0.84);
 }

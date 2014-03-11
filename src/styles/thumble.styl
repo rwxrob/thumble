@@ -84,16 +84,7 @@ btn-box-l(n=1)
 .thumble-btn
   btn-basics()
 
-// alter to taste depending on how big you want your css and mq granularity
-mq-count = 10
-factor-increment = 1.0
-
-supported-factors = ()
-for count in 1 .. mq-count
-  factor = 1 + round(factor-increment * count,1)
-  push(supported-factors,factor)
-
-for n in supported-factors
+media-query(n)
   long = round(n*10em,3)
   short = round(n*5.625em,3)
   port = '(min-height:'+long+') and (min-width:'+short+')'
@@ -110,19 +101,15 @@ for n in supported-factors
     .thumble-btn
       btn-l(scale)
 
-/* ----------------------------------------- */
+@import 'thumble-config'
 
-#thumble
-  background rgba(0,0,0,0.90)
+supported-factors = ()
+for count in 1 .. mq-count
+  factor = 1 + round(factor-increment * count,1)
+  push(supported-factors,factor)
 
-#thumble-pad
-  //background rgba(90,90,90,0.84)
-  background orange
+// one for the impossibly small
+media-query(0.8)
 
-.thumble-btn
-  //background rgba(90,90,90,0.84)
-  background blue
-  color white
-
-.thumble-btn:hover
-  background rgba(0,0,0,0.84)
+for n in supported-factors
+  media-query(n)
