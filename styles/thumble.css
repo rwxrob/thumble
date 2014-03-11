@@ -219,7 +219,7 @@ th {
 @media only screen {
   #thumble-pad {
     height: 8rem;
-    width: 4.501969611705121rem;
+    width: 4.502rem;
     padding: 0.1rem;
   }
   .thumble-btn {
@@ -234,16 +234,16 @@ th {
 @media only screen and (min-width: 7em) {
   #thumble-pad {
     height: 8.8rem;
-    width: 4.952166572875634rem;
-    padding: 0.11000000000000001rem;
+    width: 4.952rem;
+    padding: 0.11rem;
   }
   .thumble-btn {
-    font-size: 1.045rem;
+    font-size: 1.05rem;
     padding: 0.275rem;
-    margin: 0.044000000000000004rem;
-    line-height: 1.1330000000000002rem;
-    height: 1.1330000000000002rem;
-    width: 1.0120000000000002rem;
+    margin: 0.04rem;
+    line-height: 1.133rem;
+    height: 1.133rem;
+    width: 1.012rem;
   }
 }
 /* bork for now
@@ -256,22 +256,22 @@ th {
 @media only screen and (min-width: 8em) {
   #thumble-pad {
     width: 7.2rem;
-    height: 4.051772650534609rem;
-    padding: 0.09000000000000001rem;
+    height: 4.052rem;
+    padding: 0.09rem;
   }
   .thumble-btn {
-    font-size: 0.855rem;
+    font-size: 0.86rem;
     padding: 0.225rem;
-    margin: 0.036000000000000004rem;
-    line-height: 0.8280000000000001rem;
-    height: 0.8280000000000001rem;
-    width: 0.8927100000000001rem;
+    margin: 0.04rem;
+    line-height: 0.828rem;
+    height: 0.828rem;
+    width: 0.893rem;
   }
 }
 @media only screen and (min-width: 9em) {
   #thumble-pad {
     width: 8rem;
-    height: 4.501969611705121rem;
+    height: 4.502rem;
     padding: 0.1rem;
   }
   .thumble-btn {
@@ -280,133 +280,133 @@ th {
     margin: 0.04rem;
     line-height: 0.92rem;
     height: 0.92rem;
-    width: 0.9919000000000001rem;
+    width: 0.992rem;
   }
 }
 @media only screen and (min-height: 11em) and (min-width: 6em) {
   #thumble-pad {
     height: 10.4rem;
-    width: 5.852560495216657rem;
+    width: 5.853rem;
     padding: 0.13rem;
   }
   .thumble-btn {
-    font-size: 1.2349999999999999rem;
+    font-size: 1.23rem;
     padding: 0.325rem;
-    margin: 0.052000000000000005rem;
-    line-height: 1.3390000000000002rem;
-    height: 1.3390000000000002rem;
-    width: 1.1960000000000002rem;
+    margin: 0.05rem;
+    line-height: 1.339rem;
+    height: 1.339rem;
+    width: 1.196rem;
   }
 }
 @media only screen and (min-width: 12em) {
   #thumble-pad {
     width: 10.4rem;
-    height: 5.852560495216657rem;
+    height: 5.853rem;
     padding: 0.13rem;
   }
   .thumble-btn {
-    font-size: 1.2349999999999999rem;
+    font-size: 1.23rem;
     padding: 0.325rem;
-    margin: 0.052000000000000005rem;
-    line-height: 1.1960000000000002rem;
-    height: 1.1960000000000002rem;
-    width: 1.2894700000000003rem;
+    margin: 0.05rem;
+    line-height: 1.196rem;
+    height: 1.196rem;
+    width: 1.289rem;
   }
 }
 @media only screen and (min-width: 13em) {
   #thumble-pad {
     width: 11.2rem;
-    height: 6.3027574563871696rem;
-    padding: 0.13999999999999999rem;
+    height: 6.303rem;
+    padding: 0.14rem;
   }
   .thumble-btn {
-    font-size: 1.3299999999999998rem;
+    font-size: 1.33rem;
     padding: 0.35rem;
-    margin: 0.055999999999999994rem;
+    margin: 0.06rem;
     line-height: 1.288rem;
     height: 1.288rem;
-    width: 1.38866rem;
+    width: 1.389rem;
   }
 }
 @media only screen and (min-width: 14em) {
   #thumble-pad {
     width: 12rem;
-    height: 6.752954417557682rem;
-    padding: 0.15000000000000002rem;
+    height: 6.753rem;
+    padding: 0.15rem;
   }
   .thumble-btn {
-    font-size: 1.4249999999999998rem;
+    font-size: 1.42rem;
     padding: 0.375rem;
     margin: 0.06rem;
-    line-height: 1.3800000000000001rem;
-    height: 1.3800000000000001rem;
-    width: 1.4878500000000003rem;
+    line-height: 1.38rem;
+    height: 1.38rem;
+    width: 1.488rem;
   }
 }
 @media only screen and (min-width: 15em) {
   #thumble-pad {
     width: 12.8rem;
-    height: 7.203151378728195rem;
-    padding: 0.16000000000000003rem;
+    height: 7.203rem;
+    padding: 0.16rem;
   }
   .thumble-btn {
     font-size: 1.52rem;
     padding: 0.4rem;
-    margin: 0.064rem;
-    line-height: 1.4720000000000002rem;
-    height: 1.4720000000000002rem;
-    width: 1.5870400000000002rem;
+    margin: 0.06rem;
+    line-height: 1.472rem;
+    height: 1.472rem;
+    width: 1.587rem;
   }
 }
 @media only screen and (min-width: 16em) {
   #thumble-pad {
     width: 13.6rem;
-    height: 7.653348339898706rem;
+    height: 7.653rem;
     padding: 0.17rem;
   }
   .thumble-btn {
-    font-size: 1.615rem;
+    font-size: 1.62rem;
     padding: 0.425rem;
-    margin: 0.068rem;
+    margin: 0.07rem;
     line-height: 1.564rem;
     height: 1.564rem;
-    width: 1.6862300000000001rem;
+    width: 1.686rem;
   }
 }
 @media only screen and (min-width: 17em) {
   #thumble-pad {
     width: 14.4rem;
-    height: 8.103545301069218rem;
-    padding: 0.18000000000000002rem;
+    height: 8.104rem;
+    padding: 0.18rem;
   }
   .thumble-btn {
     font-size: 1.71rem;
     padding: 0.45rem;
-    margin: 0.07200000000000001rem;
-    line-height: 1.6560000000000001rem;
-    height: 1.6560000000000001rem;
-    width: 1.7854200000000002rem;
+    margin: 0.07rem;
+    line-height: 1.656rem;
+    height: 1.656rem;
+    width: 1.785rem;
   }
 }
 @media only screen and (min-width: 18em) {
   #thumble-pad {
     width: 15.2rem;
-    height: 8.55374226223973rem;
+    height: 8.554rem;
     padding: 0.19rem;
   }
   .thumble-btn {
-    font-size: 1.805rem;
+    font-size: 1.81rem;
     padding: 0.475rem;
-    margin: 0.076rem;
+    margin: 0.08rem;
     line-height: 1.748rem;
     height: 1.748rem;
-    width: 1.8846100000000001rem;
+    width: 1.885rem;
   }
 }
 @media only screen and (min-width: 19em) {
   #thumble-pad {
     width: 16rem;
-    height: 9.003939223410242rem;
+    height: 9.004rem;
     padding: 0.2rem;
   }
   .thumble-btn {
@@ -415,94 +415,639 @@ th {
     margin: 0.08rem;
     line-height: 1.84rem;
     height: 1.84rem;
-    width: 1.9838000000000002rem;
+    width: 1.984rem;
   }
 }
 @media only screen and (min-width: 20em) {
   #thumble-pad {
     width: 16.8rem;
-    height: 9.454136184580754rem;
-    padding: 0.21000000000000002rem;
+    height: 9.454rem;
+    padding: 0.21rem;
   }
   .thumble-btn {
-    font-size: 1.9949999999999999rem;
+    font-size: 2rem;
     padding: 0.525rem;
-    margin: 0.084rem;
-    line-height: 1.9320000000000002rem;
-    height: 1.9320000000000002rem;
-    width: 2.08299rem;
+    margin: 0.08rem;
+    line-height: 1.932rem;
+    height: 1.932rem;
+    width: 2.083rem;
   }
 }
 @media only screen and (min-width: 21em) {
   #thumble-pad {
     width: 17.6rem;
-    height: 9.904333145751268rem;
-    padding: 0.22000000000000003rem;
+    height: 9.904rem;
+    padding: 0.22rem;
   }
   .thumble-btn {
     font-size: 2.09rem;
     padding: 0.55rem;
-    margin: 0.08800000000000001rem;
-    line-height: 2.0240000000000005rem;
-    height: 2.0240000000000005rem;
-    width: 2.1821800000000007rem;
+    margin: 0.09rem;
+    line-height: 2.024rem;
+    height: 2.024rem;
+    width: 2.182rem;
   }
 }
-/*
-
-
-// xsmall >320px (safer than 480)
-//@media only screen and (min-width: 20em)
-
-// small >450px
-@media only screen and (min-width: 28.125em)
-  #thumble-pad
-    height 14.8em
-    width 20.4em
-    margin 0%
-  .thumble-btn
-    line-height 1.75em
-    height 1.75em
-    font-size 2.50em
-    width 1.75em
-    padding 0.03em
-    margin 0.065em 
-
-// medium >640px
-@media only screen and (min-width: 40em)
-  #thumble-pad
-    width 37.8em
-    height 12.6em
-
-// large >1024px
-//@media only screen and (min-width: 64.063em)
-@media only screen and (min-height: 55em)
-  #thumble
-    text-align right
-    padding 0
-    border-radius 0
-    height 100%
-    width none
-  .thumble-btn
-    line-height 1.75em
-    height 1.75em
-    font-size 2.50em
-    width 1.75em
-    padding 0.03em
-    margin 0.065em 
-  #thumble-pad
-    height 1000em
-    width 5.6em
-    border-radius 0
-    margin 0
-
-// xlarge >1440px
-//@media (min-width: 90.063em)
-
-// xxlarge >1920
-//@media (min-width: 120.063em)
-
-*/
+@media only screen and (min-width: 21em) {
+  #thumble-pad {
+    width: 17.6rem;
+    height: 9.904rem;
+    padding: 0.22rem;
+  }
+  .thumble-btn {
+    font-size: 2.09rem;
+    padding: 0.55rem;
+    margin: 0.09rem;
+    line-height: 2.024rem;
+    height: 2.024rem;
+    width: 2.182rem;
+  }
+}
+@media only screen and (min-width: 22em) {
+  #thumble-pad {
+    width: 18.4rem;
+    height: 10.355rem;
+    padding: 0.23rem;
+  }
+  .thumble-btn {
+    font-size: 2.18rem;
+    padding: 0.575rem;
+    margin: 0.09rem;
+    line-height: 2.116rem;
+    height: 2.116rem;
+    width: 2.281rem;
+  }
+}
+@media only screen and (min-width: 23em) {
+  #thumble-pad {
+    width: 19.2rem;
+    height: 10.805rem;
+    padding: 0.24rem;
+  }
+  .thumble-btn {
+    font-size: 2.28rem;
+    padding: 0.6rem;
+    margin: 0.1rem;
+    line-height: 2.208rem;
+    height: 2.208rem;
+    width: 2.381rem;
+  }
+}
+@media only screen and (min-width: 24em) {
+  #thumble-pad {
+    width: 20rem;
+    height: 11.255rem;
+    padding: 0.25rem;
+  }
+  .thumble-btn {
+    font-size: 2.38rem;
+    padding: 0.625rem;
+    margin: 0.1rem;
+    line-height: 2.3rem;
+    height: 2.3rem;
+    width: 2.48rem;
+  }
+}
+@media only screen and (min-width: 25em) {
+  #thumble-pad {
+    width: 20.8rem;
+    height: 11.705rem;
+    padding: 0.26rem;
+  }
+  .thumble-btn {
+    font-size: 2.47rem;
+    padding: 0.65rem;
+    margin: 0.1rem;
+    line-height: 2.392rem;
+    height: 2.392rem;
+    width: 2.579rem;
+  }
+}
+@media only screen and (min-width: 26em) {
+  #thumble-pad {
+    width: 21.6rem;
+    height: 12.155rem;
+    padding: 0.27rem;
+  }
+  .thumble-btn {
+    font-size: 2.57rem;
+    padding: 0.675rem;
+    margin: 0.11rem;
+    line-height: 2.484rem;
+    height: 2.484rem;
+    width: 2.678rem;
+  }
+}
+@media only screen and (min-width: 27em) {
+  #thumble-pad {
+    width: 22.4rem;
+    height: 12.606rem;
+    padding: 0.28rem;
+  }
+  .thumble-btn {
+    font-size: 2.66rem;
+    padding: 0.7rem;
+    margin: 0.11rem;
+    line-height: 2.576rem;
+    height: 2.576rem;
+    width: 2.777rem;
+  }
+}
+@media only screen and (min-width: 28em) {
+  #thumble-pad {
+    width: 23.2rem;
+    height: 13.056rem;
+    padding: 0.29rem;
+  }
+  .thumble-btn {
+    font-size: 2.76rem;
+    padding: 0.725rem;
+    margin: 0.12rem;
+    line-height: 2.668rem;
+    height: 2.668rem;
+    width: 2.877rem;
+  }
+}
+@media only screen and (min-width: 29em) {
+  #thumble-pad {
+    width: 24rem;
+    height: 13.506rem;
+    padding: 0.3rem;
+  }
+  .thumble-btn {
+    font-size: 2.85rem;
+    padding: 0.75rem;
+    margin: 0.12rem;
+    line-height: 2.76rem;
+    height: 2.76rem;
+    width: 2.976rem;
+  }
+}
+@media only screen and (min-width: 30em) {
+  #thumble-pad {
+    width: 24.8rem;
+    height: 13.956rem;
+    padding: 0.31rem;
+  }
+  .thumble-btn {
+    font-size: 2.95rem;
+    padding: 0.775rem;
+    margin: 0.12rem;
+    line-height: 2.852rem;
+    height: 2.852rem;
+    width: 3.075rem;
+  }
+}
+@media only screen and (min-width: 31em) {
+  #thumble-pad {
+    width: 25.6rem;
+    height: 14.406rem;
+    padding: 0.32rem;
+  }
+  .thumble-btn {
+    font-size: 3.04rem;
+    padding: 0.8rem;
+    margin: 0.13rem;
+    line-height: 2.944rem;
+    height: 2.944rem;
+    width: 3.174rem;
+  }
+}
+@media only screen and (min-width: 32em) {
+  #thumble-pad {
+    width: 26.4rem;
+    height: 14.856rem;
+    padding: 0.33rem;
+  }
+  .thumble-btn {
+    font-size: 3.14rem;
+    padding: 0.825rem;
+    margin: 0.13rem;
+    line-height: 3.036rem;
+    height: 3.036rem;
+    width: 3.273rem;
+  }
+}
+@media only screen and (min-width: 33em) {
+  #thumble-pad {
+    width: 27.2rem;
+    height: 15.307rem;
+    padding: 0.34rem;
+  }
+  .thumble-btn {
+    font-size: 3.23rem;
+    padding: 0.85rem;
+    margin: 0.14rem;
+    line-height: 3.128rem;
+    height: 3.128rem;
+    width: 3.372rem;
+  }
+}
+@media only screen and (min-width: 34em) {
+  #thumble-pad {
+    width: 28rem;
+    height: 15.757rem;
+    padding: 0.35rem;
+  }
+  .thumble-btn {
+    font-size: 3.33rem;
+    padding: 0.875rem;
+    margin: 0.14rem;
+    line-height: 3.22rem;
+    height: 3.22rem;
+    width: 3.472rem;
+  }
+}
+@media only screen and (min-width: 35em) {
+  #thumble-pad {
+    width: 28.8rem;
+    height: 16.207rem;
+    padding: 0.36rem;
+  }
+  .thumble-btn {
+    font-size: 3.42rem;
+    padding: 0.9rem;
+    margin: 0.14rem;
+    line-height: 3.312rem;
+    height: 3.312rem;
+    width: 3.571rem;
+  }
+}
+@media only screen and (min-width: 36em) {
+  #thumble-pad {
+    width: 29.6rem;
+    height: 16.657rem;
+    padding: 0.37rem;
+  }
+  .thumble-btn {
+    font-size: 3.52rem;
+    padding: 0.925rem;
+    margin: 0.15rem;
+    line-height: 3.404rem;
+    height: 3.404rem;
+    width: 3.67rem;
+  }
+}
+@media only screen and (min-width: 37em) {
+  #thumble-pad {
+    width: 30.4rem;
+    height: 17.107rem;
+    padding: 0.38rem;
+  }
+  .thumble-btn {
+    font-size: 3.61rem;
+    padding: 0.95rem;
+    margin: 0.15rem;
+    line-height: 3.496rem;
+    height: 3.496rem;
+    width: 3.769rem;
+  }
+}
+@media only screen and (min-width: 38em) {
+  #thumble-pad {
+    width: 31.2rem;
+    height: 17.558rem;
+    padding: 0.39rem;
+  }
+  .thumble-btn {
+    font-size: 3.7rem;
+    padding: 0.975rem;
+    margin: 0.16rem;
+    line-height: 3.588rem;
+    height: 3.588rem;
+    width: 3.868rem;
+  }
+}
+@media only screen and (min-width: 39em) {
+  #thumble-pad {
+    width: 32rem;
+    height: 18.008rem;
+    padding: 0.4rem;
+  }
+  .thumble-btn {
+    font-size: 3.8rem;
+    padding: 1rem;
+    margin: 0.16rem;
+    line-height: 3.68rem;
+    height: 3.68rem;
+    width: 3.968rem;
+  }
+}
+@media only screen and (min-width: 40em) {
+  #thumble-pad {
+    width: 32.8rem;
+    height: 18.458rem;
+    padding: 0.41rem;
+  }
+  .thumble-btn {
+    font-size: 3.89rem;
+    padding: 1.025rem;
+    margin: 0.16rem;
+    line-height: 3.772rem;
+    height: 3.772rem;
+    width: 4.067rem;
+  }
+}
+@media only screen and (min-width: 41em) {
+  #thumble-pad {
+    width: 33.6rem;
+    height: 18.908rem;
+    padding: 0.42rem;
+  }
+  .thumble-btn {
+    font-size: 3.99rem;
+    padding: 1.05rem;
+    margin: 0.17rem;
+    line-height: 3.864rem;
+    height: 3.864rem;
+    width: 4.166rem;
+  }
+}
+@media only screen and (min-width: 42em) {
+  #thumble-pad {
+    width: 34.4rem;
+    height: 19.358rem;
+    padding: 0.43rem;
+  }
+  .thumble-btn {
+    font-size: 4.09rem;
+    padding: 1.075rem;
+    margin: 0.17rem;
+    line-height: 3.956rem;
+    height: 3.956rem;
+    width: 4.265rem;
+  }
+}
+@media only screen and (min-width: 43em) {
+  #thumble-pad {
+    width: 35.2rem;
+    height: 19.809rem;
+    padding: 0.44rem;
+  }
+  .thumble-btn {
+    font-size: 4.18rem;
+    padding: 1.1rem;
+    margin: 0.18rem;
+    line-height: 4.048rem;
+    height: 4.048rem;
+    width: 4.364rem;
+  }
+}
+@media only screen and (min-width: 44em) {
+  #thumble-pad {
+    width: 36rem;
+    height: 20.259rem;
+    padding: 0.45rem;
+  }
+  .thumble-btn {
+    font-size: 4.27rem;
+    padding: 1.125rem;
+    margin: 0.18rem;
+    line-height: 4.14rem;
+    height: 4.14rem;
+    width: 4.464rem;
+  }
+}
+@media only screen and (min-width: 45em) {
+  #thumble-pad {
+    width: 36.8rem;
+    height: 20.709rem;
+    padding: 0.46rem;
+  }
+  .thumble-btn {
+    font-size: 4.37rem;
+    padding: 1.15rem;
+    margin: 0.18rem;
+    line-height: 4.232rem;
+    height: 4.232rem;
+    width: 4.563rem;
+  }
+}
+@media only screen and (min-width: 46em) {
+  #thumble-pad {
+    width: 37.6rem;
+    height: 21.159rem;
+    padding: 0.47rem;
+  }
+  .thumble-btn {
+    font-size: 4.47rem;
+    padding: 1.175rem;
+    margin: 0.19rem;
+    line-height: 4.324rem;
+    height: 4.324rem;
+    width: 4.662rem;
+  }
+}
+@media only screen and (min-width: 47em) {
+  #thumble-pad {
+    width: 38.4rem;
+    height: 21.609rem;
+    padding: 0.48rem;
+  }
+  .thumble-btn {
+    font-size: 4.56rem;
+    padding: 1.2rem;
+    margin: 0.19rem;
+    line-height: 4.416rem;
+    height: 4.416rem;
+    width: 4.761rem;
+  }
+}
+@media only screen and (min-width: 48em) {
+  #thumble-pad {
+    width: 39.2rem;
+    height: 22.06rem;
+    padding: 0.49rem;
+  }
+  .thumble-btn {
+    font-size: 4.66rem;
+    padding: 1.225rem;
+    margin: 0.2rem;
+    line-height: 4.508rem;
+    height: 4.508rem;
+    width: 4.86rem;
+  }
+}
+@media only screen and (min-width: 49em) {
+  #thumble-pad {
+    width: 40rem;
+    height: 22.51rem;
+    padding: 0.5rem;
+  }
+  .thumble-btn {
+    font-size: 4.75rem;
+    padding: 1.25rem;
+    margin: 0.2rem;
+    line-height: 4.6rem;
+    height: 4.6rem;
+    width: 4.96rem;
+  }
+}
+@media only screen and (min-width: 50em) {
+  #thumble-pad {
+    width: 40.8rem;
+    height: 22.96rem;
+    padding: 0.51rem;
+  }
+  .thumble-btn {
+    font-size: 4.85rem;
+    padding: 1.275rem;
+    margin: 0.2rem;
+    line-height: 4.692rem;
+    height: 4.692rem;
+    width: 5.059rem;
+  }
+}
+@media only screen and (min-width: 51em) {
+  #thumble-pad {
+    width: 41.6rem;
+    height: 23.41rem;
+    padding: 0.52rem;
+  }
+  .thumble-btn {
+    font-size: 4.94rem;
+    padding: 1.3rem;
+    margin: 0.21rem;
+    line-height: 4.784rem;
+    height: 4.784rem;
+    width: 5.158rem;
+  }
+}
+@media only screen and (min-width: 52em) {
+  #thumble-pad {
+    width: 42.4rem;
+    height: 23.86rem;
+    padding: 0.53rem;
+  }
+  .thumble-btn {
+    font-size: 5.03rem;
+    padding: 1.325rem;
+    margin: 0.21rem;
+    line-height: 4.876rem;
+    height: 4.876rem;
+    width: 5.257rem;
+  }
+}
+@media only screen and (min-width: 53em) {
+  #thumble-pad {
+    width: 43.2rem;
+    height: 24.311rem;
+    padding: 0.54rem;
+  }
+  .thumble-btn {
+    font-size: 5.13rem;
+    padding: 1.35rem;
+    margin: 0.22rem;
+    line-height: 4.968rem;
+    height: 4.968rem;
+    width: 5.356rem;
+  }
+}
+@media only screen and (min-width: 54em) {
+  #thumble-pad {
+    width: 44rem;
+    height: 24.761rem;
+    padding: 0.55rem;
+  }
+  .thumble-btn {
+    font-size: 5.23rem;
+    padding: 1.375rem;
+    margin: 0.22rem;
+    line-height: 5.06rem;
+    height: 5.06rem;
+    width: 5.455rem;
+  }
+}
+@media only screen and (min-width: 55em) {
+  #thumble-pad {
+    width: 44.8rem;
+    height: 25.211rem;
+    padding: 0.56rem;
+  }
+  .thumble-btn {
+    font-size: 5.32rem;
+    padding: 1.4rem;
+    margin: 0.22rem;
+    line-height: 5.152rem;
+    height: 5.152rem;
+    width: 5.555rem;
+  }
+}
+@media only screen and (min-width: 56em) {
+  #thumble-pad {
+    width: 45.6rem;
+    height: 25.661rem;
+    padding: 0.57rem;
+  }
+  .thumble-btn {
+    font-size: 5.42rem;
+    padding: 1.425rem;
+    margin: 0.23rem;
+    line-height: 5.244rem;
+    height: 5.244rem;
+    width: 5.654rem;
+  }
+}
+@media only screen and (min-width: 57em) {
+  #thumble-pad {
+    width: 46.4rem;
+    height: 26.111rem;
+    padding: 0.58rem;
+  }
+  .thumble-btn {
+    font-size: 5.51rem;
+    padding: 1.45rem;
+    margin: 0.23rem;
+    line-height: 5.336rem;
+    height: 5.336rem;
+    width: 5.753rem;
+  }
+}
+@media only screen and (min-width: 58em) {
+  #thumble-pad {
+    width: 47.2rem;
+    height: 26.562rem;
+    padding: 0.59rem;
+  }
+  .thumble-btn {
+    font-size: 5.61rem;
+    padding: 1.475rem;
+    margin: 0.24rem;
+    line-height: 5.428rem;
+    height: 5.428rem;
+    width: 5.852rem;
+  }
+}
+@media only screen and (min-width: 59em) {
+  #thumble-pad {
+    width: 48rem;
+    height: 27.012rem;
+    padding: 0.6rem;
+  }
+  .thumble-btn {
+    font-size: 5.7rem;
+    padding: 1.5rem;
+    margin: 0.24rem;
+    line-height: 5.52rem;
+    height: 5.52rem;
+    width: 5.951rem;
+  }
+}
+@media only screen and (min-width: 60em) {
+  #thumble-pad {
+    width: 48.8rem;
+    height: 27.462rem;
+    padding: 0.61rem;
+  }
+  .thumble-btn {
+    font-size: 5.79rem;
+    padding: 1.525rem;
+    margin: 0.24rem;
+    line-height: 5.612rem;
+    height: 5.612rem;
+    width: 6.051rem;
+  }
+}
 /* ----------------------------------------- */
 #thumble {
   background: rgba(0,0,0,0.9);

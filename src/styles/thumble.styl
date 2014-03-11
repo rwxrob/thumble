@@ -36,17 +36,17 @@ btn-basics()
   border-radius 0.25rem
 
 btn(n=1)
-  font-size (0.95rem * n)
-  padding (0.5rem * n * 0.5)
-  margin (0.04rem * n) 
+  font-size round(0.95rem * n,2)
+  padding round(0.5rem * n * 0.5, 3)
+  margin round(0.04rem * n,2) 
 
 box16x9(long)
   width long 
-  height (long / 1.777)
+  height round(long / 1.777, 3)
 
 box9x16(long)
   height long 
-  width (long / 1.777)
+  width round(long / 1.777, 3)
 
 btn-box()
   absolute-center()
@@ -56,23 +56,23 @@ btn-box()
 
 btn-p(n=1)
   btn(n)
-  line-height (1.03rem * n)
-  height (1.03rem * n )
-  width (0.92rem * n )
+  line-height round(1.03rem * n, 3)
+  height round(1.03rem * n, 3)
+  width round(0.92rem * n, 3)
 
 btn-l(n=1)
   btn(n)
-  line-height (0.92rem * n)
-  height (0.92rem * n )
-  width (1.09rem * n * 0.91)
+  line-height round(0.92rem * n, 3)
+  height round(0.92rem * n, 3)
+  width round(1.09rem * n * 0.91, 3)
 
 btn-box-p(n=1)
-  box9x16((8rem * n))
-  padding (0.1rem * n)
+  box9x16(round(8rem * n, 3))
+  padding round(0.1rem * n, 3)
 
 btn-box-l(n=1)
-  box16x9((8rem * n))
-  padding (0.1rem * n)
+  box16x9(round(8rem * n, 3))
+  padding round(0.1rem * n, 3)
 
 #thumble
   overlay()
@@ -83,6 +83,9 @@ btn-box-l(n=1)
 
 .thumble-btn
   btn-basics()
+
+// yes these media queries could be done in javascript
+// but this really ain't so bad (compared to jQuery for ex)
 
 @media only screen
   #thumble-pad
@@ -182,61 +185,245 @@ btn-box-l(n=1)
   .thumble-btn
     btn-l(2.2)
 
-/*
-
-
-// xsmall >320px (safer than 480)
-//@media only screen and (min-width: 20em)
-
-// small >450px
-@media only screen and (min-width: 28.125em)
+@media only screen and (min-width: 21em)
   #thumble-pad
-    height 14.8em
-    width 20.4em
-    margin 0%
+    btn-box-l(2.2)
   .thumble-btn
-    line-height 1.75em
-    height 1.75em
-    font-size 2.50em
-    width 1.75em
-    padding 0.03em
-    margin 0.065em 
+    btn-l(2.2)
 
-// medium >640px
+@media only screen and (min-width: 22em)
+  #thumble-pad
+    btn-box-l(2.3)
+  .thumble-btn
+    btn-l(2.3)
+
+@media only screen and (min-width: 23em)
+  #thumble-pad
+    btn-box-l(2.4)
+  .thumble-btn
+    btn-l(2.4)
+
+@media only screen and (min-width: 24em)
+  #thumble-pad
+    btn-box-l(2.5)
+  .thumble-btn
+    btn-l(2.5)
+
+@media only screen and (min-width: 25em)
+  #thumble-pad
+    btn-box-l(2.6)
+  .thumble-btn
+    btn-l(2.6)
+
+@media only screen and (min-width: 26em)
+  #thumble-pad
+    btn-box-l(2.7)
+  .thumble-btn
+    btn-l(2.7)
+
+@media only screen and (min-width: 27em)
+  #thumble-pad
+    btn-box-l(2.8)
+  .thumble-btn
+    btn-l(2.8)
+
+@media only screen and (min-width: 28em)
+  #thumble-pad
+    btn-box-l(2.9)
+  .thumble-btn
+    btn-l(2.9)
+
+@media only screen and (min-width: 29em)
+  #thumble-pad
+    btn-box-l(3.0)
+  .thumble-btn
+    btn-l(3.0)
+
+@media only screen and (min-width: 30em)
+  #thumble-pad
+    btn-box-l(3.1)
+  .thumble-btn
+    btn-l(3.1)
+
+@media only screen and (min-width: 31em)
+  #thumble-pad
+    btn-box-l(3.2)
+  .thumble-btn
+    btn-l(3.2)
+
+@media only screen and (min-width: 32em)
+  #thumble-pad
+    btn-box-l(3.3)
+  .thumble-btn
+    btn-l(3.3)
+
+@media only screen and (min-width: 33em)
+  #thumble-pad
+    btn-box-l(3.4)
+  .thumble-btn
+    btn-l(3.4)
+
+@media only screen and (min-width: 34em)
+  #thumble-pad
+    btn-box-l(3.5)
+  .thumble-btn
+    btn-l(3.5)
+
+@media only screen and (min-width: 35em)
+  #thumble-pad
+    btn-box-l(3.6)
+  .thumble-btn
+    btn-l(3.6)
+
+@media only screen and (min-width: 36em)
+  #thumble-pad
+    btn-box-l(3.7)
+  .thumble-btn
+    btn-l(3.7)
+
+@media only screen and (min-width: 37em)
+  #thumble-pad
+    btn-box-l(3.8)
+  .thumble-btn
+    btn-l(3.8)
+
+@media only screen and (min-width: 38em)
+  #thumble-pad
+    btn-box-l(3.9)
+  .thumble-btn
+    btn-l(3.9)
+
+@media only screen and (min-width: 39em)
+  #thumble-pad
+    btn-box-l(4.0)
+  .thumble-btn
+    btn-l(4.0)
+
 @media only screen and (min-width: 40em)
   #thumble-pad
-    width 37.8em
-    height 12.6em
-
-// large >1024px
-//@media only screen and (min-width: 64.063em)
-@media only screen and (min-height: 55em)
-  #thumble
-    text-align right
-    padding 0
-    border-radius 0
-    height 100%
-    width none
+    btn-box-l(4.1)
   .thumble-btn
-    line-height 1.75em
-    height 1.75em
-    font-size 2.50em
-    width 1.75em
-    padding 0.03em
-    margin 0.065em 
+    btn-l(4.1)
+
+@media only screen and (min-width: 41em)
   #thumble-pad
-    height 1000em
-    width 5.6em
-    border-radius 0
-    margin 0
+    btn-box-l(4.2)
+  .thumble-btn
+    btn-l(4.2)
 
-// xlarge >1440px
-//@media (min-width: 90.063em)
+@media only screen and (min-width: 42em)
+  #thumble-pad
+    btn-box-l(4.3)
+  .thumble-btn
+    btn-l(4.3)
 
-// xxlarge >1920
-//@media (min-width: 120.063em)
+@media only screen and (min-width: 43em)
+  #thumble-pad
+    btn-box-l(4.4)
+  .thumble-btn
+    btn-l(4.4)
 
-*/
+@media only screen and (min-width: 44em)
+  #thumble-pad
+    btn-box-l(4.5)
+  .thumble-btn
+    btn-l(4.5)
+
+@media only screen and (min-width: 45em)
+  #thumble-pad
+    btn-box-l(4.6)
+  .thumble-btn
+    btn-l(4.6)
+
+@media only screen and (min-width: 46em)
+  #thumble-pad
+    btn-box-l(4.7)
+  .thumble-btn
+    btn-l(4.7)
+
+@media only screen and (min-width: 47em)
+  #thumble-pad
+    btn-box-l(4.8)
+  .thumble-btn
+    btn-l(4.8)
+
+@media only screen and (min-width: 48em)
+  #thumble-pad
+    btn-box-l(4.9)
+  .thumble-btn
+    btn-l(4.9)
+
+@media only screen and (min-width: 49em)
+  #thumble-pad
+    btn-box-l(5.0)
+  .thumble-btn
+    btn-l(5.0)
+
+@media only screen and (min-width: 50em)
+  #thumble-pad
+    btn-box-l(5.1)
+  .thumble-btn
+    btn-l(5.1)
+
+@media only screen and (min-width: 51em)
+  #thumble-pad
+    btn-box-l(5.2)
+  .thumble-btn
+    btn-l(5.2)
+
+@media only screen and (min-width: 52em)
+  #thumble-pad
+    btn-box-l(5.3)
+  .thumble-btn
+    btn-l(5.3)
+
+@media only screen and (min-width: 53em)
+  #thumble-pad
+    btn-box-l(5.4)
+  .thumble-btn
+    btn-l(5.4)
+
+@media only screen and (min-width: 54em)
+  #thumble-pad
+    btn-box-l(5.5)
+  .thumble-btn
+    btn-l(5.5)
+
+@media only screen and (min-width: 55em)
+  #thumble-pad
+    btn-box-l(5.6)
+  .thumble-btn
+    btn-l(5.6)
+
+@media only screen and (min-width: 56em)
+  #thumble-pad
+    btn-box-l(5.7)
+  .thumble-btn
+    btn-l(5.7)
+
+@media only screen and (min-width: 57em)
+  #thumble-pad
+    btn-box-l(5.8)
+  .thumble-btn
+    btn-l(5.8)
+
+@media only screen and (min-width: 58em)
+  #thumble-pad
+    btn-box-l(5.9)
+  .thumble-btn
+    btn-l(5.9)
+
+@media only screen and (min-width: 59em)
+  #thumble-pad
+    btn-box-l(6.0)
+  .thumble-btn
+    btn-l(6.0)
+
+@media only screen and (min-width: 60em)
+  #thumble-pad
+    btn-box-l(6.1)
+  .thumble-btn
+    btn-l(6.1)
 
 /* ----------------------------------------- */
 
