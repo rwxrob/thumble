@@ -194,34 +194,38 @@ th {
   text-align: center;
   vertical-align: middle;
 }
+#thumble-pad {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  text-align: center;
+  border: 0;
+  border-radius: 0.3rem;
+}
+.thumble-btn {
+  display: inline-block;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+  vertical-align: middle;
+  border: 0;
+  color: #fff;
+  border-radius: 0.25rem;
+}
 @media only screen {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     height: 8rem;
     width: 4.501969611705121rem;
     padding: 0.1rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 0.95rem;
     padding: 0.25rem;
     margin: 0.04rem;
-    border-radius: 0.25rem;
     line-height: 1.03rem;
     height: 1.03rem;
     width: 0.92rem;
@@ -229,32 +233,14 @@ th {
 }
 @media only screen and (min-width: 7em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     height: 8.8rem;
     width: 4.952166572875634rem;
     padding: 0.11000000000000001rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 1.045rem;
     padding: 0.275rem;
     margin: 0.044000000000000004rem;
-    border-radius: 0.25rem;
     line-height: 1.1330000000000002rem;
     height: 1.1330000000000002rem;
     width: 1.0120000000000002rem;
@@ -269,32 +255,14 @@ th {
 */
 @media only screen and (min-width: 8em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     width: 7.2rem;
     height: 4.051772650534609rem;
     padding: 0.09000000000000001rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 0.855rem;
     padding: 0.225rem;
     margin: 0.036000000000000004rem;
-    border-radius: 0.25rem;
     line-height: 0.8280000000000001rem;
     height: 0.8280000000000001rem;
     width: 0.8927100000000001rem;
@@ -302,32 +270,14 @@ th {
 }
 @media only screen and (min-width: 9em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     width: 8rem;
     height: 4.501969611705121rem;
     padding: 0.1rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 0.95rem;
     padding: 0.25rem;
     margin: 0.04rem;
-    border-radius: 0.25rem;
     line-height: 0.92rem;
     height: 0.92rem;
     width: 0.9919000000000001rem;
@@ -335,32 +285,14 @@ th {
 }
 @media only screen and (min-height: 11em) and (min-width: 6em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     height: 10.4rem;
     width: 5.852560495216657rem;
     padding: 0.13rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 1.2349999999999999rem;
     padding: 0.325rem;
     margin: 0.052000000000000005rem;
-    border-radius: 0.25rem;
     line-height: 1.3390000000000002rem;
     height: 1.3390000000000002rem;
     width: 1.1960000000000002rem;
@@ -368,32 +300,14 @@ th {
 }
 @media only screen and (min-width: 12em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     width: 10.4rem;
     height: 5.852560495216657rem;
     padding: 0.13rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 1.2349999999999999rem;
     padding: 0.325rem;
     margin: 0.052000000000000005rem;
-    border-radius: 0.25rem;
     line-height: 1.1960000000000002rem;
     height: 1.1960000000000002rem;
     width: 1.2894700000000003rem;
@@ -401,32 +315,14 @@ th {
 }
 @media only screen and (min-width: 13em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     width: 11.2rem;
     height: 6.3027574563871696rem;
     padding: 0.13999999999999999rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 1.3299999999999998rem;
     padding: 0.35rem;
     margin: 0.055999999999999994rem;
-    border-radius: 0.25rem;
     line-height: 1.288rem;
     height: 1.288rem;
     width: 1.38866rem;
@@ -434,35 +330,122 @@ th {
 }
 @media only screen and (min-width: 14em) {
   #thumble-pad {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    text-align: center;
-    border: 0;
     width: 12rem;
     height: 6.752954417557682rem;
     padding: 0.15000000000000002rem;
-    border-radius: 0.3rem;
   }
   .thumble-btn {
-    display: inline-block;
-    -webkit-transition: opacity 0.25s ease;
-    transition: opacity 0.25s ease;
-    text-align: center;
-    vertical-align: middle;
-    border: 0;
-    color: #fff;
     font-size: 1.4249999999999998rem;
     padding: 0.375rem;
     margin: 0.06rem;
-    border-radius: 0.25rem;
     line-height: 1.3800000000000001rem;
     height: 1.3800000000000001rem;
     width: 1.4878500000000003rem;
+  }
+}
+@media only screen and (min-width: 15em) {
+  #thumble-pad {
+    width: 12.8rem;
+    height: 7.203151378728195rem;
+    padding: 0.16000000000000003rem;
+  }
+  .thumble-btn {
+    font-size: 1.52rem;
+    padding: 0.4rem;
+    margin: 0.064rem;
+    line-height: 1.4720000000000002rem;
+    height: 1.4720000000000002rem;
+    width: 1.5870400000000002rem;
+  }
+}
+@media only screen and (min-width: 16em) {
+  #thumble-pad {
+    width: 13.6rem;
+    height: 7.653348339898706rem;
+    padding: 0.17rem;
+  }
+  .thumble-btn {
+    font-size: 1.615rem;
+    padding: 0.425rem;
+    margin: 0.068rem;
+    line-height: 1.564rem;
+    height: 1.564rem;
+    width: 1.6862300000000001rem;
+  }
+}
+@media only screen and (min-width: 17em) {
+  #thumble-pad {
+    width: 14.4rem;
+    height: 8.103545301069218rem;
+    padding: 0.18000000000000002rem;
+  }
+  .thumble-btn {
+    font-size: 1.71rem;
+    padding: 0.45rem;
+    margin: 0.07200000000000001rem;
+    line-height: 1.6560000000000001rem;
+    height: 1.6560000000000001rem;
+    width: 1.7854200000000002rem;
+  }
+}
+@media only screen and (min-width: 18em) {
+  #thumble-pad {
+    width: 15.2rem;
+    height: 8.55374226223973rem;
+    padding: 0.19rem;
+  }
+  .thumble-btn {
+    font-size: 1.805rem;
+    padding: 0.475rem;
+    margin: 0.076rem;
+    line-height: 1.748rem;
+    height: 1.748rem;
+    width: 1.8846100000000001rem;
+  }
+}
+@media only screen and (min-width: 19em) {
+  #thumble-pad {
+    width: 16rem;
+    height: 9.003939223410242rem;
+    padding: 0.2rem;
+  }
+  .thumble-btn {
+    font-size: 1.9rem;
+    padding: 0.5rem;
+    margin: 0.08rem;
+    line-height: 1.84rem;
+    height: 1.84rem;
+    width: 1.9838000000000002rem;
+  }
+}
+@media only screen and (min-width: 20em) {
+  #thumble-pad {
+    width: 16.8rem;
+    height: 9.454136184580754rem;
+    padding: 0.21000000000000002rem;
+  }
+  .thumble-btn {
+    font-size: 1.9949999999999999rem;
+    padding: 0.525rem;
+    margin: 0.084rem;
+    line-height: 1.9320000000000002rem;
+    height: 1.9320000000000002rem;
+    width: 2.08299rem;
+  }
+}
+@media only screen and (min-width: 21em) {
+  #thumble-pad {
+    width: 17.6rem;
+    height: 9.904333145751268rem;
+    padding: 0.22000000000000003rem;
+  }
+  .thumble-btn {
+    font-size: 2.09rem;
+    padding: 0.55rem;
+    margin: 0.08800000000000001rem;
+    line-height: 2.0240000000000005rem;
+    height: 2.0240000000000005rem;
+    width: 2.1821800000000007rem;
   }
 }
 /*

@@ -26,17 +26,19 @@ overlay()
   text-align center
   vertical-align middle
 
-btn(n=1)
+btn-basics()
   display inline-block
   transition opacity 0.25s ease
   text-align center
   vertical-align middle
   border 0
-  color white
+  color white // default
+  border-radius 0.25rem
+
+btn(n=1)
   font-size (0.95rem * n)
   padding (0.5rem * n * 0.5)
   margin (0.04rem * n) 
-  border-radius 0.25rem
 
 box16x9(long)
   width long 
@@ -65,19 +67,22 @@ btn-l(n=1)
   width (1.09rem * n * 0.91)
 
 btn-box-p(n=1)
-  btn-box()
   box9x16((8rem * n))
   padding (0.1rem * n)
-  border-radius 0.3rem
 
 btn-box-l(n=1)
-  btn-box()
   box16x9((8rem * n))
   padding (0.1rem * n)
-  border-radius 0.3rem
 
 #thumble
   overlay()
+
+#thumble-pad
+  btn-box()
+  border-radius 0.3rem
+
+.thumble-btn
+  btn-basics()
 
 @media only screen
   #thumble-pad
@@ -135,6 +140,47 @@ btn-box-l(n=1)
   .thumble-btn
     btn-l(1.5)
 
+@media only screen and (min-width: 15em)
+  #thumble-pad
+    btn-box-l(1.6)
+  .thumble-btn
+    btn-l(1.6)
+
+@media only screen and (min-width: 16em)
+  #thumble-pad
+    btn-box-l(1.7)
+  .thumble-btn
+    btn-l(1.7)
+
+@media only screen and (min-width: 17em)
+  #thumble-pad
+    btn-box-l(1.8)
+  .thumble-btn
+    btn-l(1.8)
+
+@media only screen and (min-width: 18em)
+  #thumble-pad
+    btn-box-l(1.9)
+  .thumble-btn
+    btn-l(1.9)
+
+@media only screen and (min-width: 19em)
+  #thumble-pad
+    btn-box-l(2.0)
+  .thumble-btn
+    btn-l(2.0)
+
+@media only screen and (min-width: 20em)
+  #thumble-pad
+    btn-box-l(2.1)
+  .thumble-btn
+    btn-l(2.1)
+
+@media only screen and (min-width: 21em)
+  #thumble-pad
+    btn-box-l(2.2)
+  .thumble-btn
+    btn-l(2.2)
 
 /*
 
