@@ -33,7 +33,7 @@ gulp.task('scripts', function(){
 
 gulp.task('styles', function(){
   gulp.src('src/styles/thumble.styl')
-    .pipe(stylus({paths: paths.stylus}))
+    .pipe(stylus({paths: paths.stylus, use: ['nib']}))
     .pipe(autoprefix('last 2 versions'))
     .pipe(rename('thumble.css'))
     .pipe(gulp.dest('styles'))
@@ -41,7 +41,7 @@ gulp.task('styles', function(){
     .pipe(rename('thumble.min.css'))
     .pipe(gulp.dest('styles'));
   gulp.src('src/styles/demo.styl')
-    .pipe(stylus({paths: paths.stylus}))
+    .pipe(stylus({paths: paths.stylus, use: ['nib']}))
     .pipe(autoprefix('last 2 versions'))
     .pipe(rename('demo.css'))
     .pipe(gulp.dest('styles'))

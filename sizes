@@ -1,95 +1,68 @@
+// Thumble Styles
 @import 'normalize'
-
-[id*="off"], [class*="off"]
-  display none
 
 opacity(n)
   zoom 1
   opacity n
   filter unquote('alpha(opacity=' + round(n * 100) + ')')
 
-overlay()
+#thumble
+  background rgba(0,0,0,0.0)
   position fixed
   top 0
   right 0
   z-index 10 
   width 100%
   height 100%
+  padding 0.1em
+  background orange
   text-align center
 
-btn(n=1)
+#thumble-pad
   display inline-block
-  transition opacity 0.25s ease
   text-align center
   vertical-align middle
-  border 0
-  color white
-  font-size (0.8rem * n)
-  padding (0.3rem * n)
-  margin (0.035rem * n)
-  border-radius 0.25rem
+  border-radius 0.6em
+  background rgba(90,90,90,0.84)
+  padding-top 0.2em
 
-box16x9(long)
-  width long 
-  height (long / 1.777)
-
-box9x16(long)
-  height long 
-  width (long / 1.777)
-
-btn-box()
+#thumble-main, .thumble-btn
   display inline-block
+  background rgba(90,90,90,0.84)
+  color white
+  border-radius 0.25em
+  border 0
+  text-decoration none !important
+  vertical-align middle
   text-align center
-  margin 0%
+  transition opacity 0.25s ease
 
-btn-p(n=1)
-  btn()
-  line-height (0.932rem * n)
-  height (0.932rem * n)
-  width (0.830rem * n)
+.thumble-btn:hover, #thumble-main:hover
+  background rgba(0,0,0,0.84)
 
-btn-l(n=1)
-  btn()
-  line-height 0.83rem
-  height 0.83rem
-  width 0.93rem
+#thumble-main
+  background rgba(0,0,0,0.24)
 
-btn-box-p(n=1)
-  btn-box()
-  box9x16((8rem * n))
-  padding (0.1rem * n)
-  border-radius 0.3rem
+#thumble-pad.off, #thumble-main.off
+  display none
 
-btn-box-l(n=1)
-  btn-box()
-  box16x9((8rem * n))
-  padding (0.1rem * n)
-  border-radius 0.3rem
 
-#thumble
-  overlay()
-
+// tiny <=320px
 @media only screen
+  #thumble
+    height 100%
+    width 100%
   #thumble-pad
-    btn-box-p(1)
+    width 19.4em
+    height 25em
+    margin 0%
   .thumble-btn
-    btn-p(1)
-
-@media only screen and (min-width: 9em)
-  #thumble-pad
-    btn-box-l(1)
-  .thumble-btn
-    btn-l(1)
-
-@media only screen and (min-height: 9em)
-  #thumble-pad
-    btn-box-p(1.2)
-  .thumble-btn
-    btn-p(1.33)
-
-
-/*
-
+    line-height 1.75em
+    height 1.75em
+    font-size 2.50em
+    width 1.75em
+    padding 0.03em
+    margin 0.065em 
 
 // xsmall >320px (safer than 480)
 //@media only screen and (min-width: 20em)
@@ -141,22 +114,3 @@ btn-box-l(n=1)
 
 // xxlarge >1920
 //@media (min-width: 120.063em)
-
-*/
-
-/* ----------------------------------------- */
-
-#thumble
-  background rgba(0,0,0,0.90)
-
-#thumble-pad
-  //background rgba(90,90,90,0.84)
-  background orange
-
-.thumble-btn
-  //background rgba(90,90,90,0.84)
-  background blue
-  color white
-
-.thumble-btn:hover
-  background rgba(0,0,0,0.84)
