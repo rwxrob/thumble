@@ -196,9 +196,14 @@ th {
 }
 @media only screen {
   #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: inline-block;
     text-align: center;
-    margin: 0;
     border: 0;
     height: 8rem;
     width: 4.501969611705121rem;
@@ -213,7 +218,7 @@ th {
     vertical-align: middle;
     border: 0;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 0.25rem;
     margin: 0.04rem;
     border-radius: 0.25rem;
@@ -222,11 +227,89 @@ th {
     width: 0.92rem;
   }
 }
-@media only screen and (min-width: 9em) {
+@media only screen and (min-width: 7em) {
   #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: inline-block;
     text-align: center;
-    margin: 0;
+    border: 0;
+    height: 8.8rem;
+    width: 4.952166572875634rem;
+    padding: 0.11000000000000001rem;
+    border-radius: 0.3rem;
+  }
+  .thumble-btn {
+    display: inline-block;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    color: #fff;
+    font-size: 1.045rem;
+    padding: 0.275rem;
+    margin: 0.044000000000000004rem;
+    border-radius: 0.25rem;
+    line-height: 1.1330000000000002rem;
+    height: 1.1330000000000002rem;
+    width: 1.0120000000000002rem;
+  }
+}
+/* bork for now
+@media only screen and (min-width: 7em) and (min-height: 8em)
+  #thumble-pad
+    btn-box-l(0.8)
+  .thumble-btn
+    btn-l(0.8)
+*/
+@media only screen and (min-width: 8em) {
+  #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    width: 7.2rem;
+    height: 4.051772650534609rem;
+    padding: 0.09000000000000001rem;
+    border-radius: 0.3rem;
+  }
+  .thumble-btn {
+    display: inline-block;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    color: #fff;
+    font-size: 0.855rem;
+    padding: 0.225rem;
+    margin: 0.036000000000000004rem;
+    border-radius: 0.25rem;
+    line-height: 0.8280000000000001rem;
+    height: 0.8280000000000001rem;
+    width: 0.8927100000000001rem;
+  }
+}
+@media only screen and (min-width: 9em) {
+  #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    text-align: center;
     border: 0;
     width: 8rem;
     height: 4.501969611705121rem;
@@ -241,20 +324,25 @@ th {
     vertical-align: middle;
     border: 0;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 0.25rem;
     margin: 0.04rem;
     border-radius: 0.25rem;
-    line-height: 0.921rem;
-    height: 0.921rem;
-    width: 1.02rem;
+    line-height: 0.92rem;
+    height: 0.92rem;
+    width: 0.9919000000000001rem;
   }
 }
 @media only screen and (min-height: 11em) and (min-width: 6em) {
   #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: inline-block;
     text-align: center;
-    margin: 0;
     border: 0;
     height: 10.4rem;
     width: 5.852560495216657rem;
@@ -269,7 +357,7 @@ th {
     vertical-align: middle;
     border: 0;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.2349999999999999rem;
     padding: 0.325rem;
     margin: 0.052000000000000005rem;
     border-radius: 0.25rem;
@@ -278,15 +366,20 @@ th {
     width: 1.1960000000000002rem;
   }
 }
-@media only screen and (min-width: 12.5em) {
+@media only screen and (min-width: 12em) {
   #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     display: inline-block;
     text-align: center;
-    margin: 0;
     border: 0;
-    width: 8rem;
-    height: 4.501969611705121rem;
-    padding: 0.1rem;
+    width: 10.4rem;
+    height: 5.852560495216657rem;
+    padding: 0.13rem;
     border-radius: 0.3rem;
   }
   .thumble-btn {
@@ -297,13 +390,79 @@ th {
     vertical-align: middle;
     border: 0;
     color: #fff;
-    font-size: 1rem;
-    padding: 0.25rem;
-    margin: 0.04rem;
+    font-size: 1.2349999999999999rem;
+    padding: 0.325rem;
+    margin: 0.052000000000000005rem;
     border-radius: 0.25rem;
-    line-height: 0.921rem;
-    height: 0.921rem;
-    width: 1.02rem;
+    line-height: 1.1960000000000002rem;
+    height: 1.1960000000000002rem;
+    width: 1.2894700000000003rem;
+  }
+}
+@media only screen and (min-width: 13em) {
+  #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    width: 11.2rem;
+    height: 6.3027574563871696rem;
+    padding: 0.13999999999999999rem;
+    border-radius: 0.3rem;
+  }
+  .thumble-btn {
+    display: inline-block;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    color: #fff;
+    font-size: 1.3299999999999998rem;
+    padding: 0.35rem;
+    margin: 0.055999999999999994rem;
+    border-radius: 0.25rem;
+    line-height: 1.288rem;
+    height: 1.288rem;
+    width: 1.38866rem;
+  }
+}
+@media only screen and (min-width: 14em) {
+  #thumble-pad {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+    border: 0;
+    width: 12rem;
+    height: 6.752954417557682rem;
+    padding: 0.15000000000000002rem;
+    border-radius: 0.3rem;
+  }
+  .thumble-btn {
+    display: inline-block;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    color: #fff;
+    font-size: 1.4249999999999998rem;
+    padding: 0.375rem;
+    margin: 0.06rem;
+    border-radius: 0.25rem;
+    line-height: 1.3800000000000001rem;
+    height: 1.3800000000000001rem;
+    width: 1.4878500000000003rem;
   }
 }
 /*
