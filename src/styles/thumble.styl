@@ -33,12 +33,12 @@ btn-basics()
   vertical-align middle
   border 0
   color white // default
-  border-radius 0.25rem
 
 btn(n=1)
   font-size round(0.95rem * n,2)
   padding round(0.5rem * n * 0.5, 3)
   margin round(0.04rem * n,2) 
+  border-radius round(0.25rem * n * 0.5,2)
 
 box16x9(long)
   width long 
@@ -109,7 +109,7 @@ for count in 1 .. mq-count
   push(supported-factors,factor)
 
 // one for the impossibly small
-media-query(0.8)
+media-query(0.75)
 
 for n in supported-factors
   media-query(n)
