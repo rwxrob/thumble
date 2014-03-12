@@ -38,7 +38,7 @@ btn(n=1)
   font-size round(0.95rem * n,2)
   padding round(0.5rem * n * 0.5, 3)
   margin round(0.04rem * n,2) 
-  border-radius round(0.25rem * n * 0.5,2)
+  border-radius round(0.25rem * n * 0.5 * btn-br,2)
 
 box16x9(long)
   width long 
@@ -69,21 +69,23 @@ btn-l(n=1)
 btn-box-p(n=1)
   box9x16(round(8rem * n, 3))
   padding round(0.1rem * n, 3)
+  border-radius round(0.25rem * n * 0.5 * btn-box-br,2)
 
 btn-box-l(n=1)
   box16x9(round(8rem * n, 3))
   padding round(0.1rem * n, 3)
+  border-radius round(0.25rem * n * 0.5 * btn-box-br,2)
 
 #thumble
   overlay()
 
 #thumble-pad
   btn-box()
-  border-radius 0.3rem
 
 .thumble-btn
   btn-basics()
 
+// more reliable than just transform: scale(n)
 media-query(n)
   long = round(n*10em,3)
   short = round(n*5.625em,3)

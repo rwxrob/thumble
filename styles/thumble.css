@@ -204,7 +204,6 @@ th {
   display: inline-block;
   text-align: center;
   border: 0;
-  border-radius: 0.3rem;
 }
 .thumble-btn {
   display: inline-block;
@@ -233,6 +232,7 @@ th {
     height: 7.32rem;
     width: 4.119rem;
     padding: 0.092rem;
+    border-radius: 0.11rem;
   }
   .thumble-btn {
     font-size: 0.87rem;
@@ -249,6 +249,7 @@ th {
     width: 7.32rem;
     height: 4.119rem;
     padding: 0.092rem;
+    border-radius: 0.11rem;
   }
   .thumble-btn {
     font-size: 0.87rem;
@@ -265,6 +266,7 @@ th {
     height: 19.52rem;
     width: 10.985rem;
     padding: 0.244rem;
+    border-radius: 0.31rem;
   }
   .thumble-btn {
     font-size: 2.32rem;
@@ -281,6 +283,7 @@ th {
     width: 19.52rem;
     height: 10.985rem;
     padding: 0.244rem;
+    border-radius: 0.31rem;
   }
   .thumble-btn {
     font-size: 2.32rem;
@@ -297,6 +300,7 @@ th {
     height: 29.28rem;
     width: 16.477rem;
     padding: 0.366rem;
+    border-radius: 0.46rem;
   }
   .thumble-btn {
     font-size: 3.48rem;
@@ -313,6 +317,7 @@ th {
     width: 29.28rem;
     height: 16.477rem;
     padding: 0.366rem;
+    border-radius: 0.46rem;
   }
   .thumble-btn {
     font-size: 3.48rem;
@@ -329,6 +334,7 @@ th {
     height: 39.04rem;
     width: 21.97rem;
     padding: 0.488rem;
+    border-radius: 0.61rem;
   }
   .thumble-btn {
     font-size: 4.64rem;
@@ -345,6 +351,7 @@ th {
     width: 39.04rem;
     height: 21.97rem;
     padding: 0.488rem;
+    border-radius: 0.61rem;
   }
   .thumble-btn {
     font-size: 4.64rem;
@@ -361,6 +368,7 @@ th {
     height: 48.8rem;
     width: 27.462rem;
     padding: 0.61rem;
+    border-radius: 0.76rem;
   }
   .thumble-btn {
     font-size: 5.79rem;
@@ -377,6 +385,7 @@ th {
     width: 48.8rem;
     height: 27.462rem;
     padding: 0.61rem;
+    border-radius: 0.76rem;
   }
   .thumble-btn {
     font-size: 5.79rem;
@@ -393,6 +402,7 @@ th {
     height: 58.56rem;
     width: 32.954rem;
     padding: 0.732rem;
+    border-radius: 0.92rem;
   }
   .thumble-btn {
     font-size: 6.95rem;
@@ -409,6 +419,7 @@ th {
     width: 58.56rem;
     height: 32.954rem;
     padding: 0.732rem;
+    border-radius: 0.92rem;
   }
   .thumble-btn {
     font-size: 6.95rem;
@@ -425,6 +436,7 @@ th {
     height: 68.32rem;
     width: 38.447rem;
     padding: 0.854rem;
+    border-radius: 1.07rem;
   }
   .thumble-btn {
     font-size: 8.11rem;
@@ -441,6 +453,7 @@ th {
     width: 68.32rem;
     height: 38.447rem;
     padding: 0.854rem;
+    border-radius: 1.07rem;
   }
   .thumble-btn {
     font-size: 8.11rem;
@@ -457,6 +470,7 @@ th {
     height: 78.08rem;
     width: 43.939rem;
     padding: 0.976rem;
+    border-radius: 1.22rem;
   }
   .thumble-btn {
     font-size: 9.27rem;
@@ -473,6 +487,7 @@ th {
     width: 78.08rem;
     height: 43.939rem;
     padding: 0.976rem;
+    border-radius: 1.22rem;
   }
   .thumble-btn {
     font-size: 9.27rem;
@@ -489,6 +504,7 @@ th {
     height: 87.84rem;
     width: 49.432rem;
     padding: 1.098rem;
+    border-radius: 1.37rem;
   }
   .thumble-btn {
     font-size: 10.43rem;
@@ -505,6 +521,7 @@ th {
     width: 87.84rem;
     height: 49.432rem;
     padding: 1.098rem;
+    border-radius: 1.37rem;
   }
   .thumble-btn {
     font-size: 10.43rem;
@@ -521,6 +538,7 @@ th {
     height: 97.6rem;
     width: 54.924rem;
     padding: 1.22rem;
+    border-radius: 1.53rem;
   }
   .thumble-btn {
     font-size: 11.59rem;
@@ -537,6 +555,7 @@ th {
     width: 97.6rem;
     height: 54.924rem;
     padding: 1.22rem;
+    border-radius: 1.53rem;
   }
   .thumble-btn {
     font-size: 11.59rem;
@@ -553,6 +572,7 @@ th {
     height: 107.36rem;
     width: 60.416rem;
     padding: 1.342rem;
+    border-radius: 1.68rem;
   }
   .thumble-btn {
     font-size: 12.75rem;
@@ -569,6 +589,7 @@ th {
     width: 107.36rem;
     height: 60.416rem;
     padding: 1.342rem;
+    border-radius: 1.68rem;
   }
   .thumble-btn {
     font-size: 12.75rem;
