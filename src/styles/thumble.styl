@@ -31,6 +31,11 @@ btn-basics()
   vertical-align middle
   border 0
   color white // default
+  // only used when all mq fail
+  margin 0.1rem
+  padding 0.1rem 0.4rem
+  font-size 0.6rem
+  border-radius 0.1rem
 
 btn(n=1)
   font-size round(0.95rem * n,2)
@@ -51,12 +56,16 @@ btn-box()
   display inline-block
   text-align center
   border 0
+  // only used when no mq is found
+  line-height 1.2rem
+  height 1.5rem
+  width none
 
 btn-p(n=1)
   btn(n)
-  line-height round(1.03rem * n, 3)
-  height round(1.03rem * n, 3)
-  width round(0.915rem * n, 3)
+  line-height round(1.02rem * n, 3)
+  height round(1.02rem * n, 3)
+  width round(0.913rem * n, 3)
 
 btn-l(n=1)
   btn(n)

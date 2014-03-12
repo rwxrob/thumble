@@ -200,6 +200,9 @@ th {
   display: inline-block;
   text-align: center;
   border: 0;
+  line-height: 1.2rem;
+  height: 1.5rem;
+  width: none;
 }
 .thumble-btn,
 #thumble-main {
@@ -210,6 +213,10 @@ th {
   vertical-align: middle;
   border: 0;
   color: #fff;
+  margin: 0.1rem;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.6rem;
+  border-radius: 0.1rem;
 }
 #thumble-main {
   position: fixed;
@@ -247,9 +254,9 @@ th {
     padding: 0.229rem;
     margin: 0.04rem;
     border-radius: 0.11rem;
-    line-height: 0.942rem;
-    height: 0.942rem;
-    width: 0.837rem;
+    line-height: 0.933rem;
+    height: 0.933rem;
+    width: 0.835rem;
   }
 }
 @media (min-width:7.5em) and (min-height:4.219em) {
@@ -281,9 +288,9 @@ th {
     padding: 0.61rem;
     margin: 0.1rem;
     border-radius: 0.31rem;
-    line-height: 2.513rem;
-    height: 2.513rem;
-    width: 2.233rem;
+    line-height: 2.489rem;
+    height: 2.489rem;
+    width: 2.228rem;
   }
 }
 @media (min-width:20em) and (min-height:11.25em) {
@@ -315,9 +322,9 @@ th {
     padding: 0.915rem;
     margin: 0.15rem;
     border-radius: 0.46rem;
-    line-height: 3.77rem;
-    height: 3.77rem;
-    width: 3.349rem;
+    line-height: 3.733rem;
+    height: 3.733rem;
+    width: 3.342rem;
   }
 }
 @media (min-width:30em) and (min-height:16.875em) {
@@ -349,9 +356,9 @@ th {
     padding: 1.22rem;
     margin: 0.2rem;
     border-radius: 0.61rem;
-    line-height: 5.026rem;
-    height: 5.026rem;
-    width: 4.465rem;
+    line-height: 4.978rem;
+    height: 4.978rem;
+    width: 4.455rem;
   }
 }
 @media (min-width:40em) and (min-height:22.5em) {
@@ -383,9 +390,9 @@ th {
     padding: 1.525rem;
     margin: 0.24rem;
     border-radius: 0.76rem;
-    line-height: 6.283rem;
-    height: 6.283rem;
-    width: 5.582rem;
+    line-height: 6.222rem;
+    height: 6.222rem;
+    width: 5.569rem;
   }
 }
 @media (min-width:50em) and (min-height:28.125em) {
@@ -417,9 +424,9 @@ th {
     padding: 1.83rem;
     margin: 0.29rem;
     border-radius: 0.92rem;
-    line-height: 7.54rem;
-    height: 7.54rem;
-    width: 6.698rem;
+    line-height: 7.466rem;
+    height: 7.466rem;
+    width: 6.683rem;
   }
 }
 @media (min-width:60em) and (min-height:33.75em) {
@@ -451,9 +458,9 @@ th {
     padding: 2.135rem;
     margin: 0.34rem;
     border-radius: 1.07rem;
-    line-height: 8.796rem;
-    height: 8.796rem;
-    width: 7.814rem;
+    line-height: 8.711rem;
+    height: 8.711rem;
+    width: 7.797rem;
   }
 }
 @media (min-width:70em) and (min-height:39.375em) {
@@ -485,9 +492,9 @@ th {
     padding: 2.44rem;
     margin: 0.39rem;
     border-radius: 1.22rem;
-    line-height: 10.053rem;
-    height: 10.053rem;
-    width: 8.93rem;
+    line-height: 9.955rem;
+    height: 9.955rem;
+    width: 8.911rem;
   }
 }
 @media (min-width:80em) and (min-height:45em) {
@@ -519,9 +526,9 @@ th {
     padding: 2.745rem;
     margin: 0.44rem;
     border-radius: 1.37rem;
-    line-height: 11.309rem;
-    height: 11.309rem;
-    width: 10.047rem;
+    line-height: 11.2rem;
+    height: 11.2rem;
+    width: 10.025rem;
   }
 }
 @media (min-width:90em) and (min-height:50.625em) {
@@ -553,9 +560,9 @@ th {
     padding: 3.05rem;
     margin: 0.49rem;
     border-radius: 1.53rem;
-    line-height: 12.566rem;
-    height: 12.566rem;
-    width: 11.163rem;
+    line-height: 12.444rem;
+    height: 12.444rem;
+    width: 11.139rem;
   }
 }
 @media (min-width:100em) and (min-height:56.25em) {
@@ -587,9 +594,9 @@ th {
     padding: 3.355rem;
     margin: 0.54rem;
     border-radius: 1.68rem;
-    line-height: 13.823rem;
-    height: 13.823rem;
-    width: 12.279rem;
+    line-height: 13.688rem;
+    height: 13.688rem;
+    width: 12.252rem;
   }
 }
 @media (min-width:110em) and (min-height:61.875em) {
