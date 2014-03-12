@@ -205,7 +205,8 @@ th {
   text-align: center;
   border: 0;
 }
-.thumble-btn {
+.thumble-btn,
+#thumble-main {
   display: inline-block;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
@@ -213,6 +214,15 @@ th {
   vertical-align: middle;
   border: 0;
   color: #fff;
+}
+#thumble-main {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #808080;
+}
+#thumble-main.off {
+  display: none;
 }
 #thumble {
   background: rgba(0,0,0,0.9);
@@ -228,6 +238,15 @@ th {
   background: rgba(0,0,0,0.84);
 }
 @media (min-height:7.5em) and (min-width:4.219em) {
+  #thumble-main {
+    font-size: 0.87rem;
+    padding: 0.229rem;
+    margin: 0.04rem;
+    border-radius: 0.11rem;
+    line-height: 0.942rem;
+    height: 0.942rem;
+    width: 0.837rem;
+  }
   #thumble-pad {
     height: 7.32rem;
     width: 4.119rem;
@@ -245,6 +264,15 @@ th {
   }
 }
 @media (min-width:7.5em) and (min-height:4.219em) {
+  #thumble-main {
+    font-size: 0.87rem;
+    padding: 0.229rem;
+    margin: 0.04rem;
+    border-radius: 0.11rem;
+    line-height: 0.942rem;
+    height: 0.942rem;
+    width: 0.837rem;
+  }
   #thumble-pad {
     width: 7.32rem;
     height: 4.119rem;
@@ -262,6 +290,15 @@ th {
   }
 }
 @media (min-height:20em) and (min-width:11.25em) {
+  #thumble-main {
+    font-size: 2.32rem;
+    padding: 0.61rem;
+    margin: 0.1rem;
+    border-radius: 0.31rem;
+    line-height: 2.513rem;
+    height: 2.513rem;
+    width: 2.233rem;
+  }
   #thumble-pad {
     height: 19.52rem;
     width: 10.985rem;
@@ -279,6 +316,15 @@ th {
   }
 }
 @media (min-width:20em) and (min-height:11.25em) {
+  #thumble-main {
+    font-size: 2.32rem;
+    padding: 0.61rem;
+    margin: 0.1rem;
+    border-radius: 0.31rem;
+    line-height: 2.513rem;
+    height: 2.513rem;
+    width: 2.233rem;
+  }
   #thumble-pad {
     width: 19.52rem;
     height: 10.985rem;
@@ -296,6 +342,15 @@ th {
   }
 }
 @media (min-height:30em) and (min-width:16.875em) {
+  #thumble-main {
+    font-size: 3.48rem;
+    padding: 0.915rem;
+    margin: 0.15rem;
+    border-radius: 0.46rem;
+    line-height: 3.77rem;
+    height: 3.77rem;
+    width: 3.349rem;
+  }
   #thumble-pad {
     height: 29.28rem;
     width: 16.477rem;
@@ -313,6 +368,15 @@ th {
   }
 }
 @media (min-width:30em) and (min-height:16.875em) {
+  #thumble-main {
+    font-size: 3.48rem;
+    padding: 0.915rem;
+    margin: 0.15rem;
+    border-radius: 0.46rem;
+    line-height: 3.77rem;
+    height: 3.77rem;
+    width: 3.349rem;
+  }
   #thumble-pad {
     width: 29.28rem;
     height: 16.477rem;
@@ -330,6 +394,15 @@ th {
   }
 }
 @media (min-height:40em) and (min-width:22.5em) {
+  #thumble-main {
+    font-size: 4.64rem;
+    padding: 1.22rem;
+    margin: 0.2rem;
+    border-radius: 0.61rem;
+    line-height: 5.026rem;
+    height: 5.026rem;
+    width: 4.465rem;
+  }
   #thumble-pad {
     height: 39.04rem;
     width: 21.97rem;
@@ -347,6 +420,15 @@ th {
   }
 }
 @media (min-width:40em) and (min-height:22.5em) {
+  #thumble-main {
+    font-size: 4.64rem;
+    padding: 1.22rem;
+    margin: 0.2rem;
+    border-radius: 0.61rem;
+    line-height: 5.026rem;
+    height: 5.026rem;
+    width: 4.465rem;
+  }
   #thumble-pad {
     width: 39.04rem;
     height: 21.97rem;
@@ -364,6 +446,15 @@ th {
   }
 }
 @media (min-height:50em) and (min-width:28.125em) {
+  #thumble-main {
+    font-size: 5.79rem;
+    padding: 1.525rem;
+    margin: 0.24rem;
+    border-radius: 0.76rem;
+    line-height: 6.283rem;
+    height: 6.283rem;
+    width: 5.582rem;
+  }
   #thumble-pad {
     height: 48.8rem;
     width: 27.462rem;
@@ -381,6 +472,15 @@ th {
   }
 }
 @media (min-width:50em) and (min-height:28.125em) {
+  #thumble-main {
+    font-size: 5.79rem;
+    padding: 1.525rem;
+    margin: 0.24rem;
+    border-radius: 0.76rem;
+    line-height: 6.283rem;
+    height: 6.283rem;
+    width: 5.582rem;
+  }
   #thumble-pad {
     width: 48.8rem;
     height: 27.462rem;
@@ -398,6 +498,15 @@ th {
   }
 }
 @media (min-height:60em) and (min-width:33.75em) {
+  #thumble-main {
+    font-size: 6.95rem;
+    padding: 1.83rem;
+    margin: 0.29rem;
+    border-radius: 0.92rem;
+    line-height: 7.54rem;
+    height: 7.54rem;
+    width: 6.698rem;
+  }
   #thumble-pad {
     height: 58.56rem;
     width: 32.954rem;
@@ -415,6 +524,15 @@ th {
   }
 }
 @media (min-width:60em) and (min-height:33.75em) {
+  #thumble-main {
+    font-size: 6.95rem;
+    padding: 1.83rem;
+    margin: 0.29rem;
+    border-radius: 0.92rem;
+    line-height: 7.54rem;
+    height: 7.54rem;
+    width: 6.698rem;
+  }
   #thumble-pad {
     width: 58.56rem;
     height: 32.954rem;
@@ -432,6 +550,15 @@ th {
   }
 }
 @media (min-height:70em) and (min-width:39.375em) {
+  #thumble-main {
+    font-size: 8.11rem;
+    padding: 2.135rem;
+    margin: 0.34rem;
+    border-radius: 1.07rem;
+    line-height: 8.796rem;
+    height: 8.796rem;
+    width: 7.814rem;
+  }
   #thumble-pad {
     height: 68.32rem;
     width: 38.447rem;
@@ -449,6 +576,15 @@ th {
   }
 }
 @media (min-width:70em) and (min-height:39.375em) {
+  #thumble-main {
+    font-size: 8.11rem;
+    padding: 2.135rem;
+    margin: 0.34rem;
+    border-radius: 1.07rem;
+    line-height: 8.796rem;
+    height: 8.796rem;
+    width: 7.814rem;
+  }
   #thumble-pad {
     width: 68.32rem;
     height: 38.447rem;
@@ -466,6 +602,15 @@ th {
   }
 }
 @media (min-height:80em) and (min-width:45em) {
+  #thumble-main {
+    font-size: 9.27rem;
+    padding: 2.44rem;
+    margin: 0.39rem;
+    border-radius: 1.22rem;
+    line-height: 10.053rem;
+    height: 10.053rem;
+    width: 8.93rem;
+  }
   #thumble-pad {
     height: 78.08rem;
     width: 43.939rem;
@@ -483,6 +628,15 @@ th {
   }
 }
 @media (min-width:80em) and (min-height:45em) {
+  #thumble-main {
+    font-size: 9.27rem;
+    padding: 2.44rem;
+    margin: 0.39rem;
+    border-radius: 1.22rem;
+    line-height: 10.053rem;
+    height: 10.053rem;
+    width: 8.93rem;
+  }
   #thumble-pad {
     width: 78.08rem;
     height: 43.939rem;
@@ -500,6 +654,15 @@ th {
   }
 }
 @media (min-height:90em) and (min-width:50.625em) {
+  #thumble-main {
+    font-size: 10.43rem;
+    padding: 2.745rem;
+    margin: 0.44rem;
+    border-radius: 1.37rem;
+    line-height: 11.309rem;
+    height: 11.309rem;
+    width: 10.047rem;
+  }
   #thumble-pad {
     height: 87.84rem;
     width: 49.432rem;
@@ -517,6 +680,15 @@ th {
   }
 }
 @media (min-width:90em) and (min-height:50.625em) {
+  #thumble-main {
+    font-size: 10.43rem;
+    padding: 2.745rem;
+    margin: 0.44rem;
+    border-radius: 1.37rem;
+    line-height: 11.309rem;
+    height: 11.309rem;
+    width: 10.047rem;
+  }
   #thumble-pad {
     width: 87.84rem;
     height: 49.432rem;
@@ -534,6 +706,15 @@ th {
   }
 }
 @media (min-height:100em) and (min-width:56.25em) {
+  #thumble-main {
+    font-size: 11.59rem;
+    padding: 3.05rem;
+    margin: 0.49rem;
+    border-radius: 1.53rem;
+    line-height: 12.566rem;
+    height: 12.566rem;
+    width: 11.163rem;
+  }
   #thumble-pad {
     height: 97.6rem;
     width: 54.924rem;
@@ -551,6 +732,15 @@ th {
   }
 }
 @media (min-width:100em) and (min-height:56.25em) {
+  #thumble-main {
+    font-size: 11.59rem;
+    padding: 3.05rem;
+    margin: 0.49rem;
+    border-radius: 1.53rem;
+    line-height: 12.566rem;
+    height: 12.566rem;
+    width: 11.163rem;
+  }
   #thumble-pad {
     width: 97.6rem;
     height: 54.924rem;
@@ -568,6 +758,15 @@ th {
   }
 }
 @media (min-height:110em) and (min-width:61.875em) {
+  #thumble-main {
+    font-size: 12.75rem;
+    padding: 3.355rem;
+    margin: 0.54rem;
+    border-radius: 1.68rem;
+    line-height: 13.823rem;
+    height: 13.823rem;
+    width: 12.279rem;
+  }
   #thumble-pad {
     height: 107.36rem;
     width: 60.416rem;
@@ -585,6 +784,15 @@ th {
   }
 }
 @media (min-width:110em) and (min-height:61.875em) {
+  #thumble-main {
+    font-size: 12.75rem;
+    padding: 3.355rem;
+    margin: 0.54rem;
+    border-radius: 1.68rem;
+    line-height: 13.823rem;
+    height: 13.823rem;
+    width: 12.279rem;
+  }
   #thumble-pad {
     width: 107.36rem;
     height: 60.416rem;

@@ -82,8 +82,17 @@ btn-box-l(n=1)
 #thumble-pad
   btn-box()
 
-.thumble-btn
+.thumble-btn, #thumble-main
   btn-basics()
+
+#thumble-main
+  position fixed
+  top 0
+  right 0
+  background grey
+
+#thumble-main.off
+  display none
 
 // more reliable than just transform: scale(n)
 media-query(n)
@@ -93,11 +102,15 @@ media-query(n)
   land = '(min-width:'+long+') and (min-height:'+short+')'
   scale = round(1.22*n,3)
   @media port
+    #thumble-main
+      btn-p(scale)
     #thumble-pad
       btn-box-p(scale)
     .thumble-btn
       btn-p(scale)
   @media land
+    #thumble-main
+      btn-p(scale)
     #thumble-pad
       btn-box-l(scale)
     .thumble-btn
