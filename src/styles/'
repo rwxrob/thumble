@@ -89,7 +89,11 @@ btn-box-l(n=1)
   right 0
   background rgba(0,0,0,0.24)
 
-#thumble-main.off, #thumble.off
+//#thumble-main.off
+//display none
+
+class*="off"]
+  background cyan
   display none
 
 // more reliable than just transform: scale(n)
